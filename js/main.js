@@ -442,6 +442,14 @@
     }
 
     // Single-page scroll spy — highlight whichever section is most in view
+    // Find the "Products & Cases" link so we can map #case-studies to it too
+    var productsCasesLink = null;
+    links.forEach(function (link) {
+      if ((link.getAttribute('href') || '').indexOf('#products') !== -1) {
+        productsCasesLink = link;
+      }
+    });
+
     var sections = [];
     links.forEach(function (link) {
       var href = link.getAttribute('href') || '';
@@ -451,6 +459,12 @@
         if (el) sections.push({ link: link, el: el });
       }
     });
+
+    // Also watch #case-studies and map it to the Products & Cases nav link
+    if (productsCasesLink) {
+      var caseEl = document.getElementById('case-studies');
+      if (caseEl) sections.push({ link: productsCasesLink, el: caseEl });
+    }
 
     function updateActive() {
       var scrollY = window.scrollY || window.pageYOffset;
