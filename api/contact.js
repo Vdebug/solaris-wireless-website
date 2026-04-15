@@ -261,7 +261,7 @@ module.exports = async function handler(req, res) {
     res.status(200).json({ success: true });
 
   } catch (err) {
-    console.error('Contact error:', err.message, err.stack);
-    res.status(500).json({ success: false, error: err.message, stack: err.stack });
+    console.error('Contact error:', err.message);
+    res.status(500).json({ success: false, error: 'Unable to process your enquiry. Please try again.' });
   }
 };
