@@ -2638,3 +2638,36 @@ a.product-card:hover {
   background: var(--gold);
   color: var(--navy);
 }
+
+/* --------------------------------------------------------------------------
+   Flip Cards — mobile tap to flip
+   -------------------------------------------------------------------------- */
+@media (hover: none) {
+  /* On touch devices, disable CSS hover flip — JS handles it via .flipped */
+  .flip-card:hover .flip-inner {
+    transform: none;
+  }
+  .flip-card.flipped .flip-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card:hover .flip-front::after {
+    transform: scaleX(0);
+  }
+  .flip-card.flipped .flip-front::after {
+    transform: scaleX(1);
+  }
+  /* Change hint text to tap */
+  .f-hint::after {
+    content: ' tap to explore';
+  }
+  .f-hint > svg ~ text,
+  .f-hint {
+    font-size: 0.65rem;
+  }
+}
+
+.f-hint-mobile { display: none; }
+@media (hover: none) {
+  .f-hint-desktop { display: none; }
+  .f-hint-mobile { display: inline; }
+}

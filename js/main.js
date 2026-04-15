@@ -517,6 +517,31 @@
   }
 
   /* ==========================================================================
+     FLIP CARDS — mobile tap to flip, desktop hover handled by CSS
+     ========================================================================== */
+  function initFlipCards() {
+    var isTouchDevice = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
+    if (!isTouchDevice) return; // desktop: CSS :hover handles it
+
+    document.querySelectorAll('.flip-card').forEach(function(card) {
+      card.addEventListener('click', function(e) {
+        // If tapping the "Learn More" link on the back, let it navigate
+        if (e.target.tagName === 'A') return;
+        card.classList.toggle('flipped');
+      });
+    });
+
+    // Close any open card when tapping outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.flip-card')) {
+        document.querySelectorAll('.flip-card.flipped').forEach(function(c) {
+          c.classList.remove('flipped');
+        });
+      }
+    });
+  }
+
+  /* ==========================================================================
      BOOT
      ========================================================================== */
   document.addEventListener('DOMContentLoaded', function () {
@@ -528,6 +553,7 @@
     initContactForm();
     initSmoothScroll();
     initActiveNav();
+    initFlipCards();
   });
 
 })();
