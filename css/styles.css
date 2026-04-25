@@ -433,7 +433,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 480px;
   gap: 5rem;
-  align-items: end;
+  align-items: center;
   padding-bottom: 5rem;
 }
 
@@ -1275,7 +1275,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 420px;
   gap: 5rem;
-  align-items: start;
+  align-items: center;
   margin-top: 4rem;
 }
 
@@ -2461,7 +2461,7 @@ div.contact-meta > div.c-meta-row:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  align-items: start;
+  align-items: center;
 }
 
 .about-stats-card {
