@@ -49,6 +49,9 @@
     { "source": "/checkout/", "destination": "/#contact", "permanent": true },
     { "source": "/policies/:slug*", "destination": "/legal/privacy-policy.html", "permanent": true },
     { "source": "/blogs", "destination": "/blog/", "permanent": true },
-    { "source": "/blogs/:slug*", "destination": "/blog/", "permanent": true }
+    { "source": "/blogs/:slug*", "destination": "/blog/", "permanent": true },
+
+    { "source": "/blog/how-to-verify-google-approved-vendor", "destination": "/blog/google-approved-vendor-electronic-devices", "permanent": true },
+    { "source": "/blog/how-to-verify-google-approved-vendor.html", "destination": "/blog/google-approved-vendor-electronic-devices", "permanent": true }
   ]
 }
