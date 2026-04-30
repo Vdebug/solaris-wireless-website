@@ -595,13 +595,27 @@
   position: relative;
   z-index: 2;
 }
+.blog-post .blog-hero .section-wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
 .blog-post .blog-hero h1 {
   font-family: 'DM Serif Display', serif;
   font-size: clamp(2rem, 4vw, 3rem);
   color: #fff;
-  line-height: 1.15;
+  line-height: 1.2;
   letter-spacing: -0.01em;
-  margin: 1rem 0 1.25rem;
+  margin: 1rem auto 1.25rem;
+  max-width: 820px;
+}
+.blog-post .blog-hero .breadcrumb {
+  justify-content: center;
+}
+.blog-post .blog-hero .blog-meta,
+.blog-post .blog-hero .blog-byline {
+  justify-content: center;
 }
 .blog-meta {
   display: flex;
@@ -609,15 +623,15 @@
   gap: 1rem;
   font-family: 'Manrope', sans-serif;
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.7);
   margin-bottom: 0.5rem;
 }
 .blog-tag {
-  background: rgba(196,154,26,0.18);
-  color: #E8B833;
-  padding: 0.18rem 0.7rem;
+  background: #E8B833;
+  color: #1a1a1a;
+  padding: 0.22rem 0.75rem;
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -639,6 +653,10 @@
   background: rgba(255,255,255,0.06);
   border-color: #C49A1A;
   margin-top: 1.25rem;
+  text-align: left;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .blog-post .blog-hero .qa-block p {
   color: rgba(255,255,255,0.92);
@@ -666,8 +684,9 @@
   font-size: 1.05rem;
   color: rgba(255,255,255,0.85);
   line-height: 1.7;
-  margin: 1.5rem 0 0;
+  margin: 1.5rem auto 0;
   max-width: 760px;
+  text-align: left;
 }
 .blog-post .blog-body {
   background: #fff;
@@ -739,31 +758,55 @@
   display: block;
   border-radius: 12px;
 }
-.blog-post .blog-content figcaption {
-  font-size: 0.78rem;
-  color: #94a3b8;
-  margin-top: 0.5rem;
-  font-family: 'Manrope', sans-serif;
+/* Hide Pexels figcaption credits site-wide */
+.blog-post .blog-content figcaption,
+.blog-post .blog-content figure.blog-featured-img figcaption,
+figure.blog-featured-img figcaption,
+.article-body figcaption {
+  display: none !important;
 }
-.article-cta {
+
+/* Article CTA, scoped specifically to the new blog-post template
+   to override the older light-bg rule earlier in this file */
+.blog-post .article-cta {
   background: linear-gradient(135deg, #0E1B36, #1a2849);
   color: #fff;
   padding: 2.5rem;
   margin: 2.5rem 0;
   border-radius: 14px;
   text-align: center;
+  border: none;
 }
-.article-cta-title {
+.blog-post .article-cta .article-cta-title,
+.blog-post .article-cta h3 {
   font-family: 'DM Serif Display', serif;
   font-size: 1.45rem;
-  color: #fff;
+  color: #fff !important;
   margin: 0 0 0.85rem;
 }
-.article-cta p {
-  color: rgba(255,255,255,0.78) !important;
+.blog-post .article-cta p {
+  color: rgba(255,255,255,0.85) !important;
   font-size: 0.95rem;
   max-width: 540px;
   margin: 0 auto 1.5rem !important;
+}
+.blog-post .article-cta .btn-gold {
+  background: #C49A1A;
+  color: #fff !important;
+  padding: 0.95rem 2.2rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(196,154,26,0.35);
+  transition: background 0.18s, transform 0.15s, box-shadow 0.18s;
+}
+.blog-post .article-cta .btn-gold:hover {
+  background: #a98410;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(196,154,26,0.45);
 }
 
 /* Sidebar */
@@ -809,4 +852,40 @@
   .blog-post .blog-content h3 { font-size: 1.15rem; }
   .article-cta { padding: 1.75rem 1.25rem; }
   .article-cta-title { font-size: 1.2rem; }
+}
+
+/* ── Related Products and Solutions pills (BOFU/comparison posts) ─────── */
+.related-products-block {
+  margin: 2rem 0;
+  padding: 1.6rem 1.75rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+.related-products-label {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.85rem;
+}
+.related-pill {
+  display: inline-block;
+  background: #0E1B36;
+  color: #fff !important;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  margin: 0.3rem 0.4rem 0.3rem 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: none !important;
+  transition: background 0.18s, transform 0.15s;
+}
+.related-pill:hover {
+  background: #C49A1A;
+  transform: translateY(-1px);
 }
