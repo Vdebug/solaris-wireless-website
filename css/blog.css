@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════
-   BLOG — Premium Editorial Design
+   BLOG, Premium Editorial Design
    Taste-skill: DESIGN_VARIANCE:7 | MOTION:5 | DENSITY:4
    No underlines on any links/text
    ═══════════════════════════════════════════════════════ */
@@ -507,4 +507,64 @@
   .article-pullquote p { font-size: 1.05rem; }
   .blog-related { padding: 3rem 1.25rem; }
   .blog-related-grid { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+/* ── Quick Answer + Key Facts (LLM-citation blocks) ───────────────────── */
+.qa-block {
+  margin: 1.5rem 0 2rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, rgba(196,154,26,0.06), rgba(196,154,26,0.02));
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+}
+.qa-block-label {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-mid, #C49A1A);
+  margin-bottom: 0.5rem;
+}
+.qa-block p {
+  font-family: var(--sans);
+  font-size: 0.96rem;
+  line-height: 1.55;
+  color: #1f2937;
+  margin: 0;
+}
+.kf-block {
+  margin: 1rem 0 2rem;
+  padding: 1.1rem 1.5rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+.kf-block-label {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 0.6rem;
+}
+.kf-block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: #1f2937;
+}
+.kf-block li {
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+.kf-block li:last-child { border-bottom: none; }
+.kf-block li strong { color: #0f172a; font-weight: 600; }
+@media (max-width: 640px) {
+  .qa-block, .kf-block { padding: 1rem 1.1rem; }
+  .qa-block p { font-size: 0.92rem; }
+  .kf-block ul { font-size: 0.85rem; }
 }

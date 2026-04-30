@@ -576,7 +576,7 @@ nav {
   font-family: var(--sans);
   font-size: 0.82rem;
   font-weight: 600;
-  color: var(--navy);
+  color: #fff;
   background: var(--gold-bright);
   border: none;
   padding: 0.8rem 1.8rem;
@@ -2098,7 +2098,7 @@ div.contact-meta > div.c-meta-row:hover {
     display: none;
   }
 
-  /* Hide Get a Quote CTA from nav-right on mobile — it lives in the mobile menu instead */
+  /* Hide Get a Quote CTA from nav-right on mobile, it lives in the mobile menu instead */
   .nav-right .nav-cta {
     display: none;
   }
@@ -2646,10 +2646,10 @@ a.product-card:hover {
 }
 
 /* --------------------------------------------------------------------------
-   Flip Cards — mobile tap to flip
+   Flip Cards, mobile tap to flip
    -------------------------------------------------------------------------- */
 @media (hover: none) {
-  /* On touch devices, disable CSS hover flip — JS handles it via .flipped */
+  /* On touch devices, disable CSS hover flip, JS handles it via .flipped */
   .flip-card:hover .flip-inner {
     transform: none;
   }

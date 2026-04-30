@@ -1,7 +1,7 @@
-# Solaris Wireless — robots.txt
+# Solaris Wireless, robots.txt
 # Global electronic device supplier and distributor since 2013
 
-# Default — allow all crawlers
+# Default, allow all crawlers
 User-agent: *
 Allow: /
 Disallow: /api/
@@ -9,7 +9,7 @@ Disallow: /backend/
 Disallow: /node_modules/
 Disallow: /.vercel/
 
-# AI crawlers — explicitly allowed for maximum LLM visibility
+# AI crawlers, explicitly allowed for maximum LLM visibility
 User-agent: GPTBot
 Allow: /
 
@@ -74,6 +74,15 @@ User-agent: MistralAI-User
 Allow: /
 
 User-agent: ImagesiftBot
+Allow: /
+
+User-agent: Grok
+Allow: /
+
+User-agent: xAI-Bot
+Allow: /
+
+User-agent: MarmosetBot
 Allow: /
 
 # Sitemaps and AI manifest

@@ -42,38 +42,32 @@ cd backend && npm install && npm start
 # One-time Gmail OAuth setup for the contact form (see backend/GMAIL_SETUP.md)
 cd backend && node get-token.js
 
-# Deploy to your Vercel (linked to origin remote, Vdebug/solaris-wireless-website)
-vercel --prod
-# → aliased https://solaris-wireless.vercel.app
-
-# Deploy to client's Vercel (linked to client remote, buntea-99/solaris-website-202604)
-# Requires VERCEL_TOKEN; .vercel/project.json must point at client's project ID before deploy
-cat > .vercel/project.json <<EOF
-{"projectId":"prj_LaSpx4qm8mcpzEZQTUOxaUDo30Ak","orgId":"team_hbUHsfafdI1514PgLuQfXpMq"}
-EOF
+# Deploy to production (client's Vercel, serves solariswireless.com)
+# .vercel/project.json is permanently linked to the client project.
 vercel --token $VERCEL_TOKEN --prod
-# → aliased https://solaris-wireless-six.vercel.app (which is mapped to the live solariswireless.com)
-# After deploying, restore your own project link:
-cat > .vercel/project.json <<EOF
-{"projectId":"prj_4NdOrHstG6ORqFvx6HUMjxHnNFWT","orgId":"team_p6wEdA4fOFJsjgZx3MiUNsue"}
-EOF
+# → aliased https://solaris-wireless-six.vercel.app, mapped to solariswireless.com
 ```
 
 There is no test suite, no linter, and no build step.
 
-## Two-Remote Deploy Workflow
+## Deploy Workflow
 
-The repo has **two GitHub remotes** and **two Vercel projects** that must stay in sync:
+The repo has **two GitHub remotes** but **one active Vercel project**:
 
-- `origin` → `Vdebug/solaris-wireless-website` (your account) → `solaris-wireless.vercel.app`
+- `origin` → `Vdebug/solaris-wireless-website` (code mirror, no deploy attached)
 - `client` → `buntea-99/solaris-website-202604` (client's account) → `solaris-wireless-six.vercel.app` → `solariswireless.com` (production domain)
 
-**Always push to both** after a commit:
+The personal Vercel project (`prj_4NdOrHstG6ORqFvx6HUMjxHnNFWT`) was retired; `.vercel/project.json` is permanently linked to the client project (`prj_LaSpx4qm8mcpzEZQTUOxaUDo30Ak`). Do not switch it back.
+
+**After a commit, push to both remotes** (origin = backup mirror, client = production):
 ```bash
 git push origin main && git push client main
 ```
 
-The client's Vercel is the one that serves `solariswireless.com`. Your own deployment is for staging/preview only.
+Then deploy to production:
+```bash
+VERCEL_TOKEN=$(grep VERCEL_TOKEN .env | cut -d= -f2) vercel --token $VERCEL_TOKEN --prod
+```
 
 ## Architectural Conventions
 
@@ -90,7 +84,7 @@ The client's Vercel is the one that serves `solariswireless.com`. Your own deplo
 
 **Schema.org JSON-LD lives inside `<head>`.** Homepage has 4 blocks: Organization, WebSite, FAQPage, BreadcrumbList. Product pages have a WebPage block with publisher Organization sub-block. When adding new content, mirror this pattern — don't strip schema.
 
-**Punctuation.** No em-dashes (`—`) anywhere in the visible copy. Replace with commas or colons. There is enforcement history for this — a sweeping `perl -i -pe` was run across all HTML.
+**Punctuation.** No em-dashes (`—`) anywhere, period. Not in visible copy, not in HTML comments, not in CSS comments, not in `llms.txt`/`llms-full.txt`, not in JSON-LD descriptions. Replace with commas, colons, or full stops. The site has been swept twice; em-dashes keep creeping back in via new content. After any blog/page edit, run `grep -rln "—" index.html blog/ products/ case-studies/ legal/ llms.txt llms-full.txt css/ robots.txt` and fix anything that returns. Use commas for parenthetical asides.
 
 **Contact form contract.** The form on the homepage POSTs to `/api/contact` (production) or `http://localhost:3001/api/contact` (local). Field names: `firstName`, `lastName`, `organisation`, `email`, `interest`, `message`. The serverless function (`api/contact.js`) and the local Express server (`backend/server.js`) implement the same handler — keep them in sync if you change the schema.
 

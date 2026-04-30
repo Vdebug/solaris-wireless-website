@@ -1,4 +1,4 @@
-# Solaris Wireless — Full Site Content
+# Solaris Wireless, Full Site Content
 
 > This file contains the complete text content of solariswireless.com for AI crawler indexing.
 > Company: Global electronic device supplier and distributor since 2013. Google-approved vendor since 2016.
@@ -2935,7 +2935,7 @@ URL: https://solariswireless.com/blog/institutional-device-procurement-guide.htm
 Published: April 30, 2026
 Target keyword: institutional device procurement
 
-Institutional device procurement is the end-to-end process by which enterprises, MVNOs and government agencies source, provision and deploy electronic devices at scale — typically 100 to 100,000+ units. This guide covers total cost of ownership, OEM sourcing models, MDM provisioning options, compliance requirements and supplier selection.
+Institutional device procurement is the end-to-end process by which enterprises, MVNOs and government agencies source, provision and deploy electronic devices at scale, typically 100 to 100,000+ units. This guide covers total cost of ownership, OEM sourcing models, MDM provisioning options, compliance requirements and supplier selection.
 
 Key topics: What is institutional device procurement, who buys (Fortune 500, MVNOs, U.S. Government, T-Mobile, Vodafone), TCO model (unit price, MDM licensing, IT staging, logistics, refresh cycles), OEM sourcing tiers (direct manufacturer, authorised distributors, certified secondary market), MDM provisioning (Apple Business Manager, Google Zero-Touch, Samsung Knox, custom OS flashing, SIM lock), supplier evaluation criteria (spec-precise sourcing, provisioning capability, global supply network, compliance documentation).
 
@@ -3001,7 +3001,7 @@ Target keyword: bulk phone supplier vs consumer store
 
 Institutional buyers who purchase smartphones from consumer retailers pay retail prices, receive no provisioning support, and face staging costs that eliminate any apparent savings. This post explains 7 key differences between a dedicated bulk phone supplier and a consumer electronics store.
 
-Key topics: Pricing gap (institutional vs retail), provisioning capability (ABM, Zero-Touch, custom OS — unavailable from retail), volume fulfilment, hardware revision control, compliance documentation (ITAR, chain-of-custody), direct-to-site delivery, dedicated account management vs self-service checkout, total cost of ownership comparison.
+Key topics: Pricing gap (institutional vs retail), provisioning capability (ABM, Zero-Touch, custom OS, unavailable from retail), volume fulfilment, hardware revision control, compliance documentation (ITAR, chain-of-custody), direct-to-site delivery, dedicated account management vs self-service checkout, total cost of ownership comparison.
 
 Solaris Wireless is a dedicated institutional device supplier serving Fortune 500, MVNO, and government buyers since 2013. Not available to consumers.
 
