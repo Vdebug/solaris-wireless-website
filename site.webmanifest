@@ -1,0 +1,15 @@
+{
+  "name": "Solaris Wireless",
+  "short_name": "Solaris",
+  "description": "Global electronic device supplier and distributor since 2013. Google-approved vendor since 2016.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E1B36",
+  "theme_color": "#0E1B36",
+  "icons": [
+    { "src": "/images/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/images/favicon-96.png", "sizes": "96x96", "type": "image/png" },
+    { "src": "/images/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/images/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

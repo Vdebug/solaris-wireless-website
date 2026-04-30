@@ -4,6 +4,49 @@
     { "source": "/pages/services.html", "destination": "/#capabilities", "permanent": true },
     { "source": "/pages/products.html", "destination": "/#products", "permanent": true },
     { "source": "/pages/contact.html", "destination": "/#contact", "permanent": true },
-    { "source": "/pages/case-studies.html", "destination": "/#case-studies", "permanent": true }
+    { "source": "/pages/case-studies.html", "destination": "/#case-studies", "permanent": true },
+
+    { "source": "/collections", "destination": "/#products", "permanent": true },
+    { "source": "/collections/", "destination": "/#products", "permanent": true },
+    { "source": "/collections/products", "destination": "/#products", "permanent": true },
+    { "source": "/collections/products/", "destination": "/#products", "permanent": true },
+    { "source": "/collections/home-page", "destination": "/", "permanent": true },
+    { "source": "/collections/home-page/", "destination": "/", "permanent": true },
+    { "source": "/collections/all", "destination": "/#products", "permanent": true },
+    { "source": "/collections/:slug*", "destination": "/#products", "permanent": true },
+
+    { "source": "/products", "destination": "/#products", "permanent": true },
+    { "source": "/products/", "destination": "/#products", "permanent": true },
+
+    { "source": "/account", "destination": "/#contact", "permanent": true },
+    { "source": "/account/", "destination": "/#contact", "permanent": true },
+    { "source": "/account/register", "destination": "/#contact", "permanent": true },
+    { "source": "/account/register/", "destination": "/#contact", "permanent": true },
+    { "source": "/account/login", "destination": "/#contact", "permanent": true },
+    { "source": "/account/login/", "destination": "/#contact", "permanent": true },
+
+    { "source": "/contact", "destination": "/#contact", "permanent": true },
+    { "source": "/contact/", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/contact", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/contact/", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/initial-contact", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/initial-contact/", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/about", "destination": "/#about", "permanent": true },
+    { "source": "/pages/about/", "destination": "/#about", "permanent": true },
+    { "source": "/pages/about-us", "destination": "/#about", "permanent": true },
+    { "source": "/pages/about-us/", "destination": "/#about", "permanent": true },
+    { "source": "/pages/services", "destination": "/#capabilities", "permanent": true },
+    { "source": "/pages/services/", "destination": "/#capabilities", "permanent": true },
+    { "source": "/pages/customer-registration", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/customer-registration/", "destination": "/#contact", "permanent": true },
+    { "source": "/pages/:slug*", "destination": "/", "permanent": true },
+
+    { "source": "/cart", "destination": "/#contact", "permanent": true },
+    { "source": "/cart/", "destination": "/#contact", "permanent": true },
+    { "source": "/checkout", "destination": "/#contact", "permanent": true },
+    { "source": "/checkout/", "destination": "/#contact", "permanent": true },
+    { "source": "/policies/:slug*", "destination": "/legal/privacy-policy.html", "permanent": true },
+    { "source": "/blogs", "destination": "/blog/", "permanent": true },
+    { "source": "/blogs/:slug*", "destination": "/blog/", "permanent": true }
   ]
 }
