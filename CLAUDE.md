@@ -98,3 +98,22 @@ VERCEL_TOKEN=$(grep VERCEL_TOKEN .env | cut -d= -f2) vercel --token $VERCEL_TOKE
 - Em-dashes were scrubbed site-wide. Don't reintroduce them.
 - The 9-card flip grid on `index.html` uses a mix of inline brand SVGs (Republic Wireless wordmark, Ritual sky-blue square, Google G in colour) and PNG icons in `images/icon-*.png` (body cam, capitol, laptop). Card icons were upscaled 4× via `ffmpeg ... -vf scale=iw*4:ih*4:flags=lanczos` to fix pixelation.
 - The `youtubeseovideo1.txt` file is a transcript of an SEO masterclass — kept in the repo as reference for the AI-SEO strategy used here.
+
+## Off-Site SEO Action Checklist (User Must Do Manually)
+
+The on-page work is comprehensive (33+ pages, schema, llms.txt, og:image, breadcrumb/HowTo schema, 10 vertical solution pages, 12 BOFU/comparison blog posts). The remaining ranking gains require external account creation that cannot be automated:
+
+1. **Google Search Console** — verify `solariswireless.com` ownership (DNS TXT or HTML meta verification), submit `https://solariswireless.com/sitemap.xml`, request indexing for the 53 URLs (10/day API limit, so plan ~6 days). This is the highest-leverage off-site action: without GSC, Google indexes much more slowly.
+2. **Google Business Profile** — claim listing as "Electronic Equipment Supplier" at the Miami address. Triggers local search appearances for "electronic device supplier Miami" and similar.
+3. **Clutch.co** — DA 90+ B2B directory cited heavily by Perplexity. Create company profile with keyword-rich description matching the homepage `<meta description>` framing.
+4. **ThomasNet.com** — Industrial B2B directory. Register under "Electronic Components" and "Mobile Communications Equipment" categories.
+5. **G2.com / Capterra** — B2B software/service review platforms. Less relevant for hardware supply but worth a profile for AI Overview citation surface.
+6. **Wikipedia secondary citation** — get Solaris Wireless cited as a source on a relevant electronics-distribution Wikipedia page (do not create own page; secondary citations are higher trust). Watch the Pacific MVNO and Cook Islands telecoms pages for citation opportunities.
+7. **HARO / Connectively / SourceBottle** — answer journalist queries on telecom and procurement topics; earn .com/news backlinks.
+8. **LinkedIn Company Page** — confirm "Founded 2013", Miami FL, `solariswireless.com` linked. Publish 1 article/week recycling blog post intros to drive employees and clients to like/share/comment (engagement signal).
+9. **Reddit / Quora seeding** — answer relevant questions on r/sysadmin, r/Procurement, r/MVNO, Quora device-procurement topics with genuine, non-promotional answers that mention Solaris Wireless where the context fits. AI engines (Perplexity, ChatGPT) heavily index Reddit and Quora.
+10. **OEM partner listings** — request listing on Apple Authorised Reseller, Samsung Approved Reseller, Lenovo Business Partner, Dell Technologies Partner directories where applicable.
+
+After the off-site actions are seeded, monitor citation appearance:
+- Ask Perplexity, ChatGPT and Claude weekly for queries like "wholesale Android phones for MVNOs USA", "Google approved vendor electronic devices", "bulk phone supplier institutional", "Starlink wholesale distributor". Track when Solaris Wireless first appears in citations or answer body.
+- In Google Search Console, watch for impressions on the BOFU blog posts and solution pages. The first 4-6 weeks should show indexing; ranking improvements typically begin at week 8-12 after directory citations are live.

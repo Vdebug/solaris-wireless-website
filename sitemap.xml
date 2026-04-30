@@ -209,4 +209,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Phase 2 BOFU + Comparison Blog Posts -->
+  <url><loc>https://solariswireless.com/blog/how-to-verify-google-approved-vendor.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/wholesale-android-phones-usa-suppliers-comparison.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/gsa-listed-phone-distributors-2026.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/itar-compliant-electronic-device-suppliers.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/bulk-iphone-supplier-enterprise-procurement.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/zero-touch-deployment-bulk-android-providers.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/top-bulk-android-phone-suppliers-usa-2026.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/best-mvno-device-suppliers-2026.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/starlink-business-vs-maritime-vs-standard-comparison.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/mdm-providers-comparison-abm-vs-zero-touch-vs-knox.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Phase 2 Solutions Vertical Pages -->
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-healthcare.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-logistics-fleet.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-education.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-hospitality.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-laptops-for-government.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/iot-cameras-for-smart-cities.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/starlink-for-maritime.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/starlink-for-oil-gas-remote-sites.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/mvno-launch-package.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/disaster-relief-rapid-deployment.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
