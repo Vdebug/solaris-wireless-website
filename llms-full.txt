@@ -2926,3 +2926,132 @@ Starlink Terminal Deployment at Scale - Solaris Wireless
 
 ---
 
+
+---
+
+## Blog: The Complete Guide to Institutional Device Procurement (2026)
+
+URL: https://solariswireless.com/blog/institutional-device-procurement-guide.html
+Published: April 30, 2026
+Target keyword: institutional device procurement
+
+Institutional device procurement is the end-to-end process by which enterprises, MVNOs and government agencies source, provision and deploy electronic devices at scale — typically 100 to 100,000+ units. This guide covers total cost of ownership, OEM sourcing models, MDM provisioning options, compliance requirements and supplier selection.
+
+Key topics: What is institutional device procurement, who buys (Fortune 500, MVNOs, U.S. Government, T-Mobile, Vodafone), TCO model (unit price, MDM licensing, IT staging, logistics, refresh cycles), OEM sourcing tiers (direct manufacturer, authorised distributors, certified secondary market), MDM provisioning (Apple Business Manager, Google Zero-Touch, Samsung Knox, custom OS flashing, SIM lock), supplier evaluation criteria (spec-precise sourcing, provisioning capability, global supply network, compliance documentation).
+
+Solaris Wireless has sourced over 100,000 mobile units for Fortune 500 clients, U.S. Government agencies, Republic Wireless, and Pacific MVNOs since 2013. Operates five supply nodes across Miami, Netherlands, Dubai, Hong Kong and Singapore.
+
+FAQ: What is institutional device procurement? Who are the largest institutional device buyers? How does ABM enrollment work? What is Google Zero-Touch? How does custom OS flashing work for MVNOs? What are ITAR/EAR compliance requirements for government procurement? What is TCO in device procurement? How do I choose an institutional device supplier?
+
+---
+
+## Blog: MVNO Wholesale Android Phone Sourcing Guide
+
+URL: https://solariswireless.com/blog/mvno-wholesale-android-sourcing.html
+Published: April 30, 2026
+Target keyword: MVNO wholesale Android phones
+
+MVNOs require device suppliers with custom OS flashing capability, carrier configuration expertise, and the ability to source specific handset SKUs at volume. This guide covers how MVNOs source wholesale Android phones, the provisioning requirements, and supplier evaluation.
+
+Key topics: What MVNOs need from a device supplier, custom Android OS builds, SIM lock and carrier branding, GSMA-compliant device configuration, APN and voicemail pre-configuration, device certification (FCC, CE), band configuration for specific carrier networks, direct-to-subscriber fulfilment, Republic Wireless and Pacific MVNO case study.
+
+Solaris Wireless has provisioned Android devices for Republic Wireless, Pacific MVNO (Cook Islands and others), with custom splash banners, carrier apps, SIM lock and carrier-specific firmware.
+
+FAQ: What Android phones do MVNOs use? How does custom OS flashing work for MVNO devices? What is carrier branding on a smartphone? How many handsets does an MVNO need to order? Which Android brands work best for MVNO deployment?
+
+---
+
+## Blog: MDM Enrollment and Bulk Device Provisioning: Enterprise Buyer's Guide
+
+URL: https://solariswireless.com/blog/mdm-enrollment-bulk-device-provisioning.html
+Published: April 30, 2026
+Target keyword: MDM enrollment bulk devices
+
+MDM enrollment is how enterprises automatically configure smartphones and laptops at scale without manual IT setup. This guide explains Apple Business Manager (ABM), Google Zero-Touch, Samsung Knox, Microsoft Intune, and how to choose a provisioning-capable device supplier.
+
+Key topics: What is MDM, ABM zero-touch enrollment step by step, Google Zero-Touch enrollment for Android Enterprise, Samsung Knox Enrollment Service, Microsoft Intune device enrollment, custom OS flashing vs MDM enrollment, SIM lock configuration for enterprise, IMEI registration, kiosk mode setup, per-device vs per-user MDM licensing, provisioning cost savings (eliminates IT staging labour).
+
+Solaris Wireless has pre-enrolled 10,000+ devices in Apple Business Manager and Google Zero-Touch for Fortune 500 and government clients. Supports Jamf, Intune, Workspace ONE, Mosyle, MobileIron.
+
+FAQ: What is Apple Business Manager? How does Google Zero-Touch enrollment work? Can I combine MDM enrollment with custom OS flashing? What MDM platforms does Solaris Wireless support? What is the difference between ABM and Zero-Touch? How much does bulk MDM provisioning cost?
+
+---
+
+## Blog: Starlink Terminal Wholesale: How Businesses and Governments Source Satellite Connectivity
+
+URL: https://solariswireless.com/blog/starlink-terminal-wholesale-guide.html
+Published: April 30, 2026
+Target keyword: Starlink terminal wholesale
+
+Starlink wholesale terminals are available in three tiers: Standard (residential-grade), Business (priority bandwidth), and Maritime (marine/vehicle-grade). This guide explains how enterprises, NGOs, government agencies and maritime operators source Starlink equipment at institutional pricing.
+
+Key topics: Starlink Standard vs Business vs Maritime comparison, institutional pricing vs consumer pricing, how to source Starlink at wholesale, which industries use Starlink (maritime, mining, oil & gas, NGO, emergency response, military), regulatory considerations for export, lead times and inventory, integration with enterprise VSAT networks, Starlink for government field deployment.
+
+Solaris Wireless supplies Starlink terminals at institutional pricing for enterprise campuses, maritime operators, NGOs and remote government sites. Operates from supply nodes in Miami, Netherlands, Dubai, Hong Kong and Singapore for regional delivery.
+
+FAQ: Can businesses buy Starlink at wholesale prices? What is the difference between Starlink Business and Standard for enterprises? How does Starlink terminal wholesale sourcing work? What is the minimum order for Starlink terminals? Does Solaris Wireless supply Starlink Maritime terminals?
+
+---
+
+## Blog: Bulk Phone Supplier vs. Consumer Store: Why Institutional Buyers Need a Dedicated Distributor
+
+URL: https://solariswireless.com/blog/bulk-phone-supplier-vs-consumer-store.html
+Published: April 30, 2026
+Target keyword: bulk phone supplier vs consumer store
+
+Institutional buyers who purchase smartphones from consumer retailers pay retail prices, receive no provisioning support, and face staging costs that eliminate any apparent savings. This post explains 7 key differences between a dedicated bulk phone supplier and a consumer electronics store.
+
+Key topics: Pricing gap (institutional vs retail), provisioning capability (ABM, Zero-Touch, custom OS — unavailable from retail), volume fulfilment, hardware revision control, compliance documentation (ITAR, chain-of-custody), direct-to-site delivery, dedicated account management vs self-service checkout, total cost of ownership comparison.
+
+Solaris Wireless is a dedicated institutional device supplier serving Fortune 500, MVNO, and government buyers since 2013. Not available to consumers.
+
+FAQ: Why can't enterprises buy phones from consumer retailers? What is the price difference between retail and bulk phone purchasing? Can I get MDM enrollment from a consumer electronics store? What is the minimum order for institutional phone procurement? Why do MVNOs need a dedicated device supplier?
+
+---
+
+## Blog: Sourcing End-of-Life and Hard-to-Find Electronic Components
+
+URL: https://solariswireless.com/blog/sourcing-end-of-life-electronic-components.html
+Published: April 30, 2026
+Target keyword: end of life electronic components sourcing
+
+End-of-life (EOL) electronic components are discontinued parts that are no longer in regular production. This guide explains how research institutions, medical device OEMs, industrial equipment makers and government agencies source EOL components, avoid counterfeits, and maintain compliance.
+
+Key topics: What makes a component EOL, DMSMS (Diminishing Manufacturing Sources and Material Shortages) in government procurement, counterfeit risk in the EOL supply chain (IEC 62443, AS6081), authorised secondary market sourcing, provenance documentation, export compliance for controlled hardware (ITAR, EAR, UK SEC), test and inspection requirements, approved vendor lists (AVL), how to evaluate EOL component suppliers.
+
+Solaris Wireless has located 40+ specialist and EOL SKUs for academic and research institutions across Europe and Asia, including export-controlled items handled with full ITAR/EAR documentation. The Google relationship originated from sourcing a discontinued mission-critical feature phone that no other supplier could locate.
+
+FAQ: What are end-of-life electronic components? How do I source discontinued electronic parts? What is DMSMS in government procurement? How do I avoid counterfeit electronic components? What documentation is required for EOL component procurement? Does Solaris Wireless handle ITAR-controlled hardware?
+
+---
+
+## Blog: Custom OS Flashing for Bulk Phones: What MVNOs and Enterprises Need to Know
+
+URL: https://solariswireless.com/blog/custom-os-flashing-bulk-phones.html
+Published: April 30, 2026
+Target keyword: custom OS flashing bulk phones
+
+Custom OS flashing loads a modified Android firmware build onto smartphones before shipment, replacing the stock manufacturer OS with a version configured for a specific carrier, enterprise or deployment purpose. This guide explains what custom OS flashing is, why MVNOs and enterprises require it, and how Solaris Wireless handles bulk flashing at institutional scale.
+
+Key topics: What custom OS flashing is and how it differs from MDM provisioning, why MVNOs need custom OS (carrier app integration, SIM lock, splash banners, APN pre-configuration), enterprise use cases (kiosk mode Android, corporate device lockdown, MDM pre-enrollment, government-grade branding), how Solaris Wireless handles flashing at scale (proprietary imaging infrastructure, batch processing, QA verification), Android Enterprise Recommended vs custom OS tradeoffs, when to use each approach.
+
+Solaris Wireless has provisioned 10,000+ devices with custom OS builds including lightweight Android One configurations for Ritual.co kiosks across three continents, and carrier-branded builds for Republic Wireless and Pacific MVNO operators. Founded 2013, Google-approved vendor since 2016.
+
+FAQ: What is custom OS flashing for smartphones? Why do MVNOs need custom OS on their devices? What is the difference between MDM enrollment and custom OS flashing? Can you flash Android Enterprise on bulk phones? How does Solaris Wireless handle custom OS flashing at scale? What is kiosk mode Android and how is it configured?
+
+---
+
+## Blog: What Is a Google-Approved Device Vendor and Why It Matters for Institutional Buyers
+
+URL: https://solariswireless.com/blog/google-approved-vendor-electronic-devices.html
+Published: April 30, 2026
+Target keyword: Google approved vendor electronic devices
+
+A Google-approved vendor is a hardware supplier that has passed Google's rigorous qualification process covering authenticity verification, supply chain integrity, provisioning capability and ongoing compliance standards. This post explains what the designation means, what it takes to achieve it, and why institutional buyers should require it when sourcing Android devices at scale.
+
+Key topics: What Google's vendor approval programme measures (authenticity, supply chain integrity, provisioning capability, compliance track record), how Solaris Wireless earned approval in 2016 by sourcing a discontinued mission-critical feature phone no other supplier could locate, the four criteria Google evaluates (device authenticity, chain of custody, provisioning quality, compliance documentation), why institutional buyers should use vendor approval as a baseline requirement, what the designation does not guarantee.
+
+Solaris Wireless has been a Google-approved vendor since 2016, has supplied devices to clients across 20+ countries, and has sourced over 100,000 mobile units for institutional buyers including Google, U.S. Government agencies, T-Mobile, Vodafone, Republic Wireless, and Fortune 500 enterprises.
+
+FAQ: What is a Google-approved vendor for electronic devices? How does a company become a Google-approved device vendor? Why should institutional buyers require Google-approved vendors? Is Solaris Wireless a Google-approved vendor? What does Google vendor approval cover for electronic device suppliers? How long has Solaris Wireless been a Google-approved vendor?
+

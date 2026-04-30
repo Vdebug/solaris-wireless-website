@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom OS Flashing for Bulk Phones: What MVNOs and Enterprises Need to Know (2026) | Solaris Wireless</title>
+<meta name="description" content="Custom OS flashing loads modified Android firmware onto smartphones before shipment. Learn how MVNOs, enterprises and kiosk operators use custom OS flashing for carrier branding, kiosk mode, MDM pre-enrollment and SIM lock at bulk scale.">
+<meta name="keywords" content="custom OS flashing bulk phones, custom Android firmware, MVNO OS flashing, enterprise custom OS, SIM lock provisioning, carrier branding firmware, kiosk mode Android, bulk device firmware flashing, Android One custom build, MDM pre-enrollment custom OS">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://solariswireless.com/blog/custom-os-flashing-bulk-phones.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Custom OS Flashing for Bulk Phones: What MVNOs and Enterprises Need to Know">
+<meta property="og:description" content="How MVNOs, enterprises and kiosk operators use custom Android OS flashing at bulk scale. Carrier branding, SIM lock, kiosk mode and MDM pre-enrollment explained.">
+<meta property="og:url" content="https://solariswireless.com/blog/custom-os-flashing-bulk-phones.html">
+<meta property="og:site_name" content="Solaris Wireless">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Custom OS Flashing for Bulk Phones: MVNOs and Enterprise Guide">
+<meta name="twitter:description" content="How MVNOs and enterprises use custom Android OS flashing for carrier branding, kiosk mode and SIM lock at scale.">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../images/favicon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="../images/favicon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/blog.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Custom OS Flashing for Bulk Phones: What MVNOs and Enterprises Need to Know (2026)",
+  "description": "Custom OS flashing loads modified Android firmware onto smartphones before shipment. How MVNOs, enterprises and kiosk operators use custom OS flashing for carrier branding, kiosk mode, MDM pre-enrollment and SIM lock at bulk scale.",
+  "url": "https://solariswireless.com/blog/custom-os-flashing-bulk-phones.html",
+  "datePublished": "2026-04-30",
+  "dateModified": "2026-04-30",
+  "author": {
+    "@type": "Organization",
+    "name": "Solaris Wireless",
+    "url": "https://solariswireless.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Solaris Wireless",
+    "url": "https://solariswireless.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://solariswireless.com/images/logo-transparent.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://solariswireless.com/blog/custom-os-flashing-bulk-phones.html"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is custom OS flashing for bulk phones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom OS flashing is the process of loading modified Android firmware onto smartphones or tablets before they ship to end users. The custom ROM replaces the OEM factory firmware with a version that includes carrier-specific branding, SIM lock configuration, pre-installed applications, custom boot animation, modified default settings, and in some cases a lightweight Android build. Bulk flashing is performed by institutional device suppliers using OEM-licensed flashing tools at scale — typically 100 to tens of thousands of units per programme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do MVNOs need custom OS flashing on their devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MVNOs require devices with their own carrier branding, pre-configured APN and network settings, SIM lock to their network, pre-installed MVNO apps, and sometimes a lightweight Android build that reduces carrier support calls. None of this is available from factory-default OEM firmware or from consumer retailers. Custom OS flashing is the only way for an MVNO to deliver a fully branded subscriber device that behaves as specified from first boot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between custom OS flashing and MDM enrollment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom OS flashing replaces the firmware on the device before shipment — it changes what the device runs at a deep level, including branding, boot animation, SIM lock and pre-installed system apps. MDM enrollment (Apple Business Manager, Google Zero-Touch) configures the device to enroll in a corporate management platform on first boot — it does not change the OS but applies corporate policies and app assignments over the standard OEM firmware. Some deployments use both: custom OS flashing for an MVNO-branded base firmware, then MDM enrollment for corporate policy application on top."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Android One and why do enterprises use it for bulk deployments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Android One is Google's programme for creating lightweight, clean versions of Android that receive guaranteed OS updates and security patches for a specified period. Enterprise and MVNO buyers use Android One builds because they provide a stable, uncluttered baseline without OEM bloatware, guaranteed security patches, and reduced device support burden. Solaris Wireless has provisioned Android One builds for clients including Ritual.co's restaurant kiosk programme, where a lightweight OS was required for reliable kiosk mode operation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What equipment and capability does custom OS flashing require from a supplier?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom OS flashing requires: OEM-licensed flashing tools (Qualcomm QFIL, MediaTek SP Flash Tool, or OEM-specific tools), an ESD-safe provisioning facility, Android firmware engineering capability to build and validate custom ROMs, quality assurance processes for per-device verification, and relationships with OEMs to obtain unlocked bootloaders or factory-mode access. This is a specialised capability available from a small number of institutional device suppliers. Solaris Wireless has performed custom OS flashing for MVNO programmes, enterprise kiosk deployments and government field devices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does custom OS flashing take for a bulk order?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Flash time per device depends on the ROM size and flashing method — typically 3-8 minutes per device for a standard Android build. For a 1,000-unit order using a multi-port flashing rig (8-16 simultaneous ports), total flashing time is 3-5 days including QA verification. Build preparation (ROM development, testing and sign-off) adds 1-4 weeks for new programmes. Repeat orders using an existing approved build flash within standard lead time. Solaris Wireless quotes lead times based on order size, provisioning complexity and current queue — contact the team for a timeline on your programme."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">
+      <img src="../images/logo-transparent.png" alt="Solaris Wireless" style="height:40px;width:auto;display:block" draggable="false">
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#capabilities">Services</a></li>
+      <li><a href="../index.html#products">Products &amp; Cases</a></li>
+      <li><a href="index.html" class="active">Blog</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:+1-305-222-7353" class="nav-tel">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        +1 (305) 222-7353
+      </a>
+      <a href="../index.html#contact" class="nav-cta">Get a Quote</a>
+      <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav-mobile-menu" id="navMobileMenu">
+    <a href="../index.html">Home</a>
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#capabilities">Services</a>
+    <a href="../index.html#products">Products &amp; Cases</a>
+    <a href="index.html">Blog</a>
+    <a href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<article class="blog-post">
+  <div class="blog-hero">
+    <div class="section-wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom:1.5rem">
+        <a href="../index.html" style="color:#C49A1A;text-decoration:none;font-size:0.85rem;font-weight:500;font-family:'Manrope',sans-serif">Home</a>
+        <span style="color:#94a3b8;margin:0 0.5rem;font-size:0.85rem">&rsaquo;</span>
+        <a href="index.html" style="color:#C49A1A;text-decoration:none;font-size:0.85rem;font-weight:500;font-family:'Manrope',sans-serif">Blog</a>
+        <span style="color:#94a3b8;margin:0 0.5rem;font-size:0.85rem">&rsaquo;</span>
+        <span style="color:#64748b;font-size:0.85rem;font-weight:500;font-family:'Manrope',sans-serif">Custom OS Flashing for Bulk Phones</span>
+      </nav>
+      <div class="blog-meta">
+        <span class="blog-tag">Device Provisioning</span>
+        <span class="blog-date">April 30, 2026</span>
+        <span class="blog-read">10 min read</span>
+      </div>
+      <h1>Custom OS Flashing for Bulk Phones: What MVNOs and Enterprises Need to Know</h1>
+      <div class="blog-byline"><span class="blog-byline-author">By the Solaris Wireless Procurement Team</span><span>Last updated: April 30, 2026</span></div>
+      <p class="blog-intro">Custom OS flashing loads modified Android firmware onto smartphones before shipment, enabling carrier branding, SIM lock, kiosk mode, app pre-installation and lightweight Android builds at bulk scale. Solaris Wireless has performed custom OS flashing for MVNO operators, Fortune 500 enterprise kiosk programmes and government field devices since 2013. This guide explains what custom OS flashing is, who needs it, and how to specify it correctly from a bulk device supplier.</p>
+    </div>
+  </div>
+
+  <div class="blog-body">
+    <div class="section-wrap blog-layout">
+      <div class="blog-content">
+
+        <figure class="blog-featured-img">
+          <img src="https://images.pexels.com/photos/6754839/pexels-photo-6754839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Custom OS flashing provisioning for bulk Android phones at institutional device supplier facility" width="940" height="420" loading="eager">
+          <figcaption>Photo by Tima Miroshnichenko / Pexels</figcaption>
+        </figure>
+
+        <h2>What Is Custom OS Flashing?</h2>
+        <p>Custom OS flashing is the process of loading modified Android firmware onto a smartphone or tablet before the device ships to its end user. Unlike MDM enrollment — which configures a standard device after it arrives — OS flashing happens at the hardware level, replacing the OEM factory firmware with a version that has been built or modified to the buyer's specifications.</p>
+        <p>The result is a device that behaves exactly as specified from the moment it powers on for the first time: carrier logo at boot, pre-configured network settings, SIM-locked to a specific carrier, pre-installed with the buyer's applications, and in some cases running a lightweight Android build stripped of OEM bloatware. This is fundamentally different from what a consumer can achieve through app installation or device settings — it modifies the device at the OS level before any user has ever touched it.</p>
+        <p>Custom OS flashing is a specialised institutional capability. It requires OEM-licensed flashing tools, an ESD-safe provisioning facility, Android firmware engineering expertise, and a quality assurance process that verifies each flashed device before shipping. Consumer retailers and most wholesale distributors cannot do it. A small number of dedicated institutional device suppliers — Solaris Wireless among them — maintain this capability as a core service.</p>
+
+        <h2>Why MVNOs Need Custom OS Flashing</h2>
+        <p>Mobile Virtual Network Operators offer wireless service under their own brand on a host carrier's network. To deliver a branded subscriber experience, the devices their subscribers use must reflect the MVNO's identity from first boot — not the OEM's identity, not the host carrier's identity.</p>
+        <p>Consider what a subscriber sees when they power on a device sourced through a consumer channel: the OEM boot screen (Samsung logo, or Motorola batwing), the host carrier's branding if purchased through a carrier store, and a factory-default Android setup wizard that asks them to create a Google account before any MVNO-specific configuration. None of this is consistent with a branded MVNO subscriber experience.</p>
+        <p>What an MVNO needs instead:</p>
+        <ul>
+          <li><strong>Custom boot animation:</strong> The MVNO logo and brand colours appear on first power-on, not the OEM logo.</li>
+          <li><strong>Pre-configured APN settings:</strong> The device connects to the correct mobile data network from first use, without requiring the subscriber to manually enter APN credentials.</li>
+          <li><strong>SIM lock to MVNO network:</strong> The device accepts only the MVNO's SIM (or the host carrier's SIM in the MVNO's provisioned range), preventing subscribers from using a subsidised device on a competing network.</li>
+          <li><strong>Pre-installed MVNO apps:</strong> The account management app, the data usage monitor, the customer support portal — all present as system applications before the subscriber sees the home screen.</li>
+          <li><strong>Modified default settings:</strong> Voicemail number, emergency call configurations, and sometimes default browser or email settings configured for the MVNO's services.</li>
+        </ul>
+        <p>Solaris Wireless has provisioned custom OS builds for Republic Wireless, Pacific MVNO operators (including Cook Islands operators), and similar carriers. The MVNO sourcing case study at <a href="../case-studies/mvno-network-operator-sourcing.html">mvno-network-operator-sourcing.html</a> covers a representative programme in detail. For the full MVNO device sourcing workflow, see the <a href="mvno-wholesale-android-sourcing.html">MVNO wholesale Android sourcing guide</a>.</p>
+
+        <h2>Enterprise Use Cases: Kiosk Mode, MDM Pre-Enrollment, Branding</h2>
+        <p>Enterprises deploy custom OS flashing for different reasons than MVNOs, but the underlying capability is the same: devices arrive configured exactly as the IT policy or product specification requires, without any per-device setup work after delivery.</p>
+
+        <h3>Kiosk Mode Deployments</h3>
+        <p>Restaurant technology companies, retail point-of-sale operators, and digital signage providers deploy Android devices as single-purpose kiosks. A kiosk device needs to run only one application, prevent access to other Android functionality, and recover automatically if the kiosk app crashes. Standard Android firmware does not do this — it provides a full consumer smartphone experience that a kiosk user should never see.</p>
+        <p>Custom OS flashing for kiosk deployments typically involves: removing or disabling system apps not needed for kiosk operation (camera, gallery, social apps), configuring Android's native kiosk mode (or equivalent lock-task mode), setting the kiosk application as the default launcher, and in some cases building a lightweight Android One base that eliminates OEM bloatware that could interfere with kiosk stability.</p>
+        <p>Solaris Wireless provisioned close to 10,000 Android kiosk units for Ritual.co's restaurant technology programme across North America, Europe and Australia. Each unit ran a custom lightweight Android One build, was mounted on a stand, retail-packaged and shipped direct to restaurant locations. The <a href="../case-studies/ritual-kiosk-deployment.html">Ritual kiosk case study</a> covers this programme in full.</p>
+
+        <h3>Enterprise Android with MDM Pre-Enrollment</h3>
+        <p>Some enterprise Android deployments use both custom OS flashing and MDM enrollment together. The typical scenario: an enterprise wants devices with their corporate branding (logo at boot, corporate wallpaper, specific pre-installed apps as system applications), but also needs Google Zero-Touch enrollment so devices automatically apply corporate policy from the MDM platform on first boot.</p>
+        <p>In this configuration, the custom OS provides the branding and pre-installed system apps. Zero-Touch enrollment — configured by the device supplier before shipment — handles the MDM enrollment and policy application. The two capabilities are complementary: custom OS modifies the firmware baseline, MDM enrollment manages the ongoing device lifecycle.</p>
+        <p>For deployments that do not require custom firmware modifications, <a href="mdm-enrollment-bulk-device-provisioning.html">MDM enrollment alone</a> (Apple Business Manager for iOS, Google Zero-Touch for Android) is usually sufficient and faster to deploy.</p>
+
+        <h3>Government and Field Device Deployments</h3>
+        <p>Government agencies deploying mobile devices for field operations — law enforcement, emergency services, military field units — frequently require devices with restricted OS functionality. Custom OS flashing enables: disabling camera and microphone for secure environments, pre-installing agency-specific encrypted communications apps, configuring device lock policies that cannot be overridden by the user, and removing consumer app stores to prevent unauthorised software installation.</p>
+        <p>For government deployments, custom OS work is typically combined with ITAR/EAR compliance documentation and chain-of-custody records. Solaris Wireless handles both the provisioning and the compliance documentation for government programmes. See the <a href="../case-studies/government-military-deployment.html">government field deployment case study</a>.</p>
+
+        <h2>How Solaris Wireless Handles Custom OS Flashing at Scale</h2>
+        <p>Solaris Wireless performs custom OS flashing at provisioning facilities in Miami and across our supply network. Our process:</p>
+        <ul>
+          <li><strong>ROM development and validation:</strong> For new programmes, our Android firmware engineers work with the buyer's technical team to build and test the custom ROM. For MVNO programmes, this includes carrier settings validation against the host carrier's network. For enterprise programmes, this includes MDM enrollment compatibility testing.</li>
+          <li><strong>Tooling setup:</strong> We configure OEM-licensed flashing rigs with the approved ROM image and quality assurance checks. Each flashing station verifies the device's IMEI, model number, and hardware revision before flashing begins — preventing ROM-to-hardware mismatches.</li>
+          <li><strong>Batch flashing:</strong> Devices are flashed in batches using multi-port rigs. After flashing, each device is booted and tested against the QA checklist: branding verification, SIM lock confirmation, APN connectivity test, pre-installed app verification.</li>
+          <li><strong>Kitting and fulfilment:</strong> Post-flashing, devices are kitted with accessories, packaged per the buyer's specification (retail box, corporate packaging, stand-mounted), and shipped direct to the deployment location.</li>
+        </ul>
+        <p>For repeat programmes, Solaris maintains the approved ROM image and flashing configuration, enabling fast turnaround on subsequent orders without re-doing the development phase.</p>
+
+        <h2>Android Enterprise Recommended vs Custom OS: Which to Choose?</h2>
+        <p>Not every enterprise deployment requires custom OS flashing. <a href="https://androidenterprise.google/" target="_blank" rel="noopener">Android Enterprise Recommended</a> devices are OEM-certified to meet Google's standards for enterprise management — they support Google Zero-Touch enrollment, Android Enterprise work profiles, and guaranteed security patch timelines. For many enterprise deployments, an Android Enterprise Recommended device with Zero-Touch enrollment is sufficient and faster to deploy than a custom OS programme.</p>
+        <p>Choose custom OS flashing when:</p>
+        <ul>
+          <li>You are an MVNO that needs carrier branding, SIM lock and custom APN on subscriber devices</li>
+          <li>Your deployment is a single-purpose kiosk requiring a custom launcher or locked Android mode</li>
+          <li>You need pre-installed system applications that cannot be delivered through MDM app assignment alone</li>
+          <li>Your enterprise policy requires the OEM boot screen and bloatware to be completely replaced</li>
+          <li>You are deploying for a government programme that requires restricted OS functionality at the firmware level</li>
+        </ul>
+        <p>Choose Android Enterprise Recommended with Zero-Touch or ABM enrollment when:</p>
+        <ul>
+          <li>Your deployment is standard corporate mobile — email, calendaring, enterprise apps, security policies</li>
+          <li>You need rapid deployment without a ROM development phase</li>
+          <li>Devices need to support regular OS updates that a custom ROM might delay</li>
+          <li>Your MDM platform (Intune, Jamf, Workspace ONE) handles all the configuration you need</li>
+        </ul>
+
+        <div class="article-facts" style="margin:2.5rem 0;display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;background:#0f172a;border-radius:16px;padding:2rem">
+          <div class="article-fact" style="text-align:center">
+            <div class="article-fact-num" style="font-family:'DM Serif Display',serif;font-size:2.2rem;color:#C49A1A">10,000+</div>
+            <div class="article-fact-label" style="font-size:0.78rem;color:rgba(255,255,255,0.6);font-family:'Manrope',sans-serif;margin-top:0.4rem">Custom-provisioned devices deployed for Ritual.co restaurant kiosk programme across 3 continents</div>
+          </div>
+          <div class="article-fact" style="text-align:center">
+            <div class="article-fact-num" style="font-family:'DM Serif Display',serif;font-size:2.2rem;color:#C49A1A">2013</div>
+            <div class="article-fact-label" style="font-size:0.78rem;color:rgba(255,255,255,0.6);font-family:'Manrope',sans-serif;margin-top:0.4rem">Year Solaris Wireless began performing custom OS and firmware provisioning for institutional clients</div>
+          </div>
+          <div class="article-fact" style="text-align:center">
+            <div class="article-fact-num" style="font-family:'DM Serif Display',serif;font-size:2.2rem;color:#C49A1A">5</div>
+            <div class="article-fact-label" style="font-size:0.78rem;color:rgba(255,255,255,0.6);font-family:'Manrope',sans-serif;margin-top:0.4rem">Global supply nodes for provisioning and fulfilment: Miami, Netherlands, Dubai, Hong Kong, Singapore</div>
+          </div>
+        </div>
+
+        <h2>Frequently Asked Questions: Custom OS Flashing for Bulk Phones</h2>
+        <div style="border-top:2px solid #f1f5f9;margin-top:1rem">
+          <div style="border-bottom:1px solid #f1f5f9;padding:1.25rem 0">
+            <strong style="font-family:'Manrope',sans-serif;font-size:0.95rem;color:#0f172a;display:block;margin-bottom:0.5rem">What is custom OS flashing for bulk phones?</strong>
+            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.65">Custom OS flashing is the process of loading modified Android firmware onto smartphones before shipment. The custom ROM includes carrier branding, SIM lock, pre-installed apps, APN configuration, and sometimes a lightweight Android build. It replaces OEM factory firmware at the hardware level, before any user touches the device.</p>
+          </div>
+          <div style="border-bottom:1px solid #f1f5f9;padding:1.25rem 0">
+            <strong style="font-family:'Manrope',sans-serif;font-size:0.95rem;color:#0f172a;display:block;margin-bottom:0.5rem">Why do MVNOs need custom OS on their devices?</strong>
+            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.65">MVNOs require carrier branding, SIM lock, and pre-configured network settings that consumer retailers cannot provide. Custom OS flashing is the only way for an MVNO to deliver a fully branded subscriber device that behaves as specified from first boot.</p>
+          </div>
+          <div style="border-bottom:1px solid #f1f5f9;padding:1.25rem 0">
+            <strong style="font-family:'Manrope',sans-serif;font-size:0.95rem;color:#0f172a;display:block;margin-bottom:0.5rem">What is the difference between custom OS flashing and MDM enrollment?</strong>
+            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.65">Custom OS flashing changes the firmware — what the device runs at a deep level. MDM enrollment (ABM, Zero-Touch) configures the device to enroll in a corporate management platform but does not change the OS. Some deployments use both together.</p>
+          </div>
+          <div style="border-bottom:1px solid #f1f5f9;padding:1.25rem 0">
+            <strong style="font-family:'Manrope',sans-serif;font-size:0.95rem;color:#0f172a;display:block;margin-bottom:0.5rem">What is Android One and why is it used for kiosk deployments?</strong>
+            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.65">Android One is Google's programme for lightweight, clean Android builds with guaranteed updates. It is used for kiosk deployments because it eliminates OEM bloatware and provides a stable base for single-purpose device operation. Solaris provisioned Android One for Ritual.co's 10,000-unit restaurant kiosk programme.</p>
+          </div>
+          <div style="border-bottom:1px solid #f1f5f9;padding:1.25rem 0">
+            <strong style="font-family:'Manrope',sans-serif;font-size:0.95rem;color:#0f172a;display:block;margin-bottom:0.5rem">Does Solaris Wireless offer custom OS flashing for enterprise deployments?</strong>
+            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.65">Yes. Solaris Wireless has performed custom OS flashing for MVNO operators, enterprise kiosk programmes (including Ritual.co's 10,000-unit deployment), and government field device programmes. Contact the team at +1 (305) 222-7353 to discuss your programme requirements.</p>
+          </div>
+          <div style="padding:1.25rem 0">
+            <strong style="font-family:'Manrope',sans-serif;font-size:0.95rem;color:#0f172a;display:block;margin-bottom:0.5rem">What is the minimum order for custom OS flashing?</strong>
+            <p style="margin:0;color:#334155;font-size:0.9rem;line-height:1.65">Custom OS flashing programmes typically have a minimum of 250-500 units to amortise the ROM development and flashing setup cost. Repeat orders using an existing approved ROM image can be fulfilled in smaller batches. Contact the team for a quote on your specific programme.</p>
+          </div>
+        </div>
+
+        <div class="article-cta" style="margin-top:2.5rem">
+          <h3 class="article-cta-title">Need custom OS flashing for your programme?</h3>
+          <p>Our team has provisioned custom Android builds for MVNOs, enterprise kiosk operators and government agencies since 2013. Tell us your requirements and we will provide a timeline and quote.</p>
+          <a href="../index.html#contact" class="btn-gold">Talk to Our Team</a>
+        </div>
+
+      </div>
+
+      <aside class="blog-sidebar">
+        <div class="sidebar-widget">
+          <div class="sidebar-widget-title">Related Services</div>
+          <ul style="list-style:none;padding:0;margin:0">
+            <li style="padding:0.6rem 0;border-bottom:1px solid #f1f5f9"><a href="../products/mdm-device-provisioning.html" style="color:#C49A1A;text-decoration:none;font-size:0.88rem;font-family:'Manrope',sans-serif;font-weight:500">MDM Device Provisioning</a></li>
+            <li style="padding:0.6rem 0;border-bottom:1px solid #f1f5f9"><a href="../products/mvno-phone-supplier.html" style="color:#C49A1A;text-decoration:none;font-size:0.88rem;font-family:'Manrope',sans-serif;font-weight:500">MVNO Phone Supplier</a></li>
+            <li style="padding:0.6rem 0;border-bottom:1px solid #f1f5f9"><a href="../products/bulk-android-phones.html" style="color:#C49A1A;text-decoration:none;font-size:0.88rem;font-family:'Manrope',sans-serif;font-weight:500">Bulk Android Phone Supply</a></li>
+            <li style="padding:0.6rem 0"><a href="../products/enterprise-phone-supplier.html" style="color:#C49A1A;text-decoration:none;font-size:0.88rem;font-family:'Manrope',sans-serif;font-weight:500">Enterprise Phone Supplier</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-widget" style="margin-top:1.5rem">
+          <div class="sidebar-widget-title">Related Case Studies</div>
+          <ul style="list-style:none;padding:0;margin:0">
+            <li style="padding:0.6rem 0;border-bottom:1px solid #f1f5f9"><a href="../case-studies/ritual-kiosk-deployment.html" style="color:#C49A1A;text-decoration:none;font-size:0.88rem;font-family:'Manrope',sans-serif;font-weight:500">Ritual.co Kiosk Deployment</a></li>
+            <li style="padding:0.6rem 0"><a href="../case-studies/mvno-network-operator-sourcing.html" style="color:#C49A1A;text-decoration:none;font-size:0.88rem;font-family:'Manrope',sans-serif;font-weight:500">MVNO Sourcing Programme</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</article>
+
+<section class="blog-related">
+  <div class="blog-related-inner">
+    <div class="blog-related-header">
+      <div class="blog-related-label">Keep Reading</div>
+      <h2 class="blog-related-title">Related Articles</h2>
+    </div>
+    <div class="blog-grid">
+      <a href="mvno-wholesale-android-sourcing.html" class="blog-card">
+        <div class="blog-card-body">
+          <div class="blog-card-cat">MVNO</div>
+          <h3 class="blog-card-title">Wholesale Android Phones for MVNOs: Complete Sourcing Guide</h3>
+          <p class="blog-card-excerpt">How MVNO operators source wholesale Android handsets with custom OS, SIM lock and carrier branding. Complete guide for MVNO procurement teams.</p>
+          <div class="blog-card-meta"><span>April 30, 2026</span><span class="blog-card-arrow">&rarr;</span></div>
+        </div>
+      </a>
+      <a href="mdm-enrollment-bulk-device-provisioning.html" class="blog-card">
+        <div class="blog-card-body">
+          <div class="blog-card-cat">MDM</div>
+          <h3 class="blog-card-title">MDM Enrollment and Bulk Device Provisioning: Enterprise Buyer's Guide</h3>
+          <p class="blog-card-excerpt">Apple Business Manager, Google Zero-Touch and Samsung Knox explained for enterprises deploying 100 to 10,000 devices.</p>
+          <div class="blog-card-meta"><span>April 30, 2026</span><span class="blog-card-arrow">&rarr;</span></div>
+        </div>
+      </a>
+      <a href="institutional-device-procurement-guide.html" class="blog-card">
+        <div class="blog-card-body">
+          <div class="blog-card-cat">Procurement</div>
+          <h3 class="blog-card-title">The Complete Guide to Institutional Device Procurement</h3>
+          <p class="blog-card-excerpt">End-to-end guide covering OEM sourcing, TCO modelling, MDM provisioning and supplier selection for enterprises, MVNOs and governments.</p>
+          <div class="blog-card-meta"><span>April 30, 2026</span><span class="blog-card-arrow">&rarr;</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo"><img src="../images/logo-footer.png" alt="Solaris Wireless" width="160" height="44" loading="lazy" style="height:44px;width:auto" draggable="false"></div>
+      <p class="footer-tagline">Electronic device supplier and distributor for enterprises, MVNOs and governments worldwide.</p>
+    </div>
+    <nav class="footer-nav">
+      <div class="footer-col">
+        <div class="footer-col-title">Company</div>
+        <ul>
+          <li><a href="../index.html#about">About Solaris</a></li>
+          <li><a href="../index.html#capabilities">Services</a></li>
+          <li><a href="../index.html#products">Products</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Products</div>
+        <ul>
+          <li><a href="../products/mobile-devices.html">Mobile Devices</a></li>
+          <li><a href="../products/laptops.html">Laptops</a></li>
+          <li><a href="../products/iot-smart-cameras.html">IoT &amp; Cameras</a></li>
+          <li><a href="../products/starlink-connectivity.html">Starlink</a></li>
+          <li><a href="../products/specialist-hardware.html">Specialist Hardware</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Legal</div>
+        <ul>
+          <li><a href="../legal/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../legal/terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">&copy; 2026 Solaris Wireless. All rights reserved.</span>
+    <span style="color:rgba(255,255,255,0.3);font-size:0.75rem;font-family:'Manrope',sans-serif">Miami, FL &middot; Netherlands &middot; Dubai &middot; Hong Kong &middot; Singapore</span>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -235,6 +235,33 @@
   gap: 0.4rem;
 }
 
+.article-byline {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.article-byline .article-author {
+  font-weight: 600;
+  color: rgba(255,255,255,0.7);
+}
+.blog-byline {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.blog-byline .blog-byline-author {
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+}
+
 /* ── Article Body ────────────────────────────────────── */
 .article-body {
   padding: 5rem 0;
