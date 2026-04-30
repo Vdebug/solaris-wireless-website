@@ -10,37 +10,37 @@
 
   <!-- Products -->
   <url>
-    <loc>https://solariswireless.com/products/mobile-devices.html</loc>
+    <loc>https://solariswireless.com/products/mobile-devices</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/laptops.html</loc>
+    <loc>https://solariswireless.com/products/laptops</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/iot-smart-cameras.html</loc>
+    <loc>https://solariswireless.com/products/iot-smart-cameras</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/starlink-connectivity.html</loc>
+    <loc>https://solariswireless.com/products/starlink-connectivity</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/consumer-electronics.html</loc>
+    <loc>https://solariswireless.com/products/consumer-electronics</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/specialist-hardware.html</loc>
+    <loc>https://solariswireless.com/products/specialist-hardware</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -48,37 +48,37 @@
 
   <!-- New SEO Landing Pages -->
   <url>
-    <loc>https://solariswireless.com/products/bulk-android-phones.html</loc>
+    <loc>https://solariswireless.com/products/bulk-android-phones</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/mvno-phone-supplier.html</loc>
+    <loc>https://solariswireless.com/products/mvno-phone-supplier</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/mdm-device-provisioning.html</loc>
+    <loc>https://solariswireless.com/products/mdm-device-provisioning</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/starlink-wholesale.html</loc>
+    <loc>https://solariswireless.com/products/starlink-wholesale</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/government-device-procurement.html</loc>
+    <loc>https://solariswireless.com/products/government-device-procurement</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/products/enterprise-phone-supplier.html</loc>
+    <loc>https://solariswireless.com/products/enterprise-phone-supplier</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -86,13 +86,13 @@
 
   <!-- Legal -->
   <url>
-    <loc>https://solariswireless.com/legal/privacy-policy.html</loc>
+    <loc>https://solariswireless.com/legal/privacy-policy</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/legal/terms.html</loc>
+    <loc>https://solariswireless.com/legal/terms</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -100,31 +100,31 @@
 
   <!-- Case Studies -->
   <url>
-    <loc>https://solariswireless.com/case-studies/mvno-network-operator-sourcing.html</loc>
+    <loc>https://solariswireless.com/case-studies/mvno-network-operator-sourcing</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/case-studies/ritual-kiosk-deployment.html</loc>
+    <loc>https://solariswireless.com/case-studies/ritual-kiosk-deployment</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/case-studies/specialist-hardware-sourcing.html</loc>
+    <loc>https://solariswireless.com/case-studies/specialist-hardware-sourcing</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/case-studies/google-fortune-500-procurement.html</loc>
+    <loc>https://solariswireless.com/case-studies/google-fortune-500-procurement</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/case-studies/government-military-deployment.html</loc>
+    <loc>https://solariswireless.com/case-studies/government-military-deployment</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -138,99 +138,99 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/institutional-mobile-device-sourcing.html</loc>
+    <loc>https://solariswireless.com/blog/institutional-mobile-device-sourcing</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/enterprise-laptop-procurement.html</loc>
+    <loc>https://solariswireless.com/blog/enterprise-laptop-procurement</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/iot-hardware-supply-chain.html</loc>
+    <loc>https://solariswireless.com/blog/iot-hardware-supply-chain</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/starlink-terminal-deployment.html</loc>
+    <loc>https://solariswireless.com/blog/starlink-terminal-deployment</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/institutional-device-procurement-guide.html</loc>
+    <loc>https://solariswireless.com/blog/institutional-device-procurement-guide</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/mvno-wholesale-android-sourcing.html</loc>
+    <loc>https://solariswireless.com/blog/mvno-wholesale-android-sourcing</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/mdm-enrollment-bulk-device-provisioning.html</loc>
+    <loc>https://solariswireless.com/blog/mdm-enrollment-bulk-device-provisioning</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/starlink-terminal-wholesale-guide.html</loc>
+    <loc>https://solariswireless.com/blog/starlink-terminal-wholesale-guide</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/bulk-phone-supplier-vs-consumer-store.html</loc>
+    <loc>https://solariswireless.com/blog/bulk-phone-supplier-vs-consumer-store</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/sourcing-end-of-life-electronic-components.html</loc>
+    <loc>https://solariswireless.com/blog/sourcing-end-of-life-electronic-components</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/custom-os-flashing-bulk-phones.html</loc>
+    <loc>https://solariswireless.com/blog/custom-os-flashing-bulk-phones</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solariswireless.com/blog/google-approved-vendor-electronic-devices.html</loc>
+    <loc>https://solariswireless.com/blog/google-approved-vendor-electronic-devices</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Phase 2 BOFU + Comparison Blog Posts -->
-  <url><loc>https://solariswireless.com/blog/how-to-verify-google-approved-vendor.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/wholesale-android-phones-usa-suppliers-comparison.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/gsa-listed-phone-distributors-2026.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/itar-compliant-electronic-device-suppliers.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/bulk-iphone-supplier-enterprise-procurement.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/zero-touch-deployment-bulk-android-providers.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/top-bulk-android-phone-suppliers-usa-2026.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/best-mvno-device-suppliers-2026.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/starlink-business-vs-maritime-vs-standard-comparison.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/blog/mdm-providers-comparison-abm-vs-zero-touch-vs-knox.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/how-to-verify-google-approved-vendor</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/wholesale-android-phones-usa-suppliers-comparison</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/gsa-listed-phone-distributors-2026</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/itar-compliant-electronic-device-suppliers</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/bulk-iphone-supplier-enterprise-procurement</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/zero-touch-deployment-bulk-android-providers</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/top-bulk-android-phone-suppliers-usa-2026</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/best-mvno-device-suppliers-2026</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/starlink-business-vs-maritime-vs-standard-comparison</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/blog/mdm-providers-comparison-abm-vs-zero-touch-vs-knox</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Phase 2 Solutions Vertical Pages -->
-  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-healthcare.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-logistics-fleet.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-education.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-hospitality.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/bulk-laptops-for-government.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/iot-cameras-for-smart-cities.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/starlink-for-maritime.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/starlink-for-oil-gas-remote-sites.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/mvno-launch-package.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solariswireless.com/solutions/disaster-relief-rapid-deployment.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-healthcare</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-logistics-fleet</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-education</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-phones-for-hospitality</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/bulk-laptops-for-government</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/iot-cameras-for-smart-cities</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/starlink-for-maritime</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/starlink-for-oil-gas-remote-sites</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/mvno-launch-package</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://solariswireless.com/solutions/disaster-relief-rapid-deployment</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

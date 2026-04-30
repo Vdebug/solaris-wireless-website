@@ -253,6 +253,7 @@
     hamburger.addEventListener('click', function (e) {
       e.stopPropagation();
       var isOpen = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
       hamburger.classList.toggle('active', isOpen);
       document.body.classList.toggle('nav-open', isOpen);
     });
@@ -261,6 +262,7 @@
     mobileMenu.addEventListener('click', function (e) {
       if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') {
         mobileMenu.classList.remove('open');
+        hamburger.classList.remove('open');
         hamburger.classList.remove('active');
         document.body.classList.remove('nav-open');
       }
@@ -271,6 +273,7 @@
       if (!mobileMenu.classList.contains('open')) return;
       if (!mobileMenu.contains(e.target) && !hamburger.contains(e.target)) {
         mobileMenu.classList.remove('open');
+        hamburger.classList.remove('open');
         hamburger.classList.remove('active');
         document.body.classList.remove('nav-open');
       }

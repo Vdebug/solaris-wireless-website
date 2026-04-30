@@ -656,7 +656,7 @@ Solaris Wireless | Electronic Device Supplier &amp; Distributor for Enterprises,
 
 ## Mobile Devices
 
-URL: https://solariswireless.com/products/mobile-devices.html
+URL: https://solariswireless.com/products/mobile-devices
 
 Mobile Devices: Solaris Wireless | Institutional Smartphone & Handset Supply 
  
@@ -810,7 +810,7 @@ Mobile Devices: Solaris Wireless | Institutional Smartphone & Handset Supply
 
 ## Laptops
 
-URL: https://solariswireless.com/products/laptops.html
+URL: https://solariswireless.com/products/laptops
 
 Laptops &amp; Notebooks: Solaris Wireless | Enterprise Laptop Procurement 
  
@@ -897,7 +897,7 @@ Laptops &amp; Notebooks: Solaris Wireless | Enterprise Laptop Procurement
 
 ## IoT and Smart Cameras
 
-URL: https://solariswireless.com/products/iot-smart-cameras.html
+URL: https://solariswireless.com/products/iot-smart-cameras
 
 IoT &amp; Smart Cameras: Solaris Wireless | Connected Device Supply 
  
@@ -958,7 +958,7 @@ IoT &amp; Smart Cameras: Solaris Wireless | Connected Device Supply
 
 ## Starlink and Connectivity
 
-URL: https://solariswireless.com/products/starlink-connectivity.html
+URL: https://solariswireless.com/products/starlink-connectivity
 
 Starlink &amp; Connectivity: Solaris Wireless | Satellite Internet Hardware Supply 
  
@@ -1019,7 +1019,7 @@ Starlink &amp; Connectivity: Solaris Wireless | Satellite Internet Hardware Supp
 
 ## Consumer Electronics
 
-URL: https://solariswireless.com/products/consumer-electronics.html
+URL: https://solariswireless.com/products/consumer-electronics
 
 Consumer Electronics: Solaris Wireless | Bulk Game Consoles, Tablets &amp; Wearables 
  
@@ -1080,7 +1080,7 @@ Consumer Electronics: Solaris Wireless | Bulk Game Consoles, Tablets &amp; Weara
 
 ## Specialist Hardware
 
-URL: https://solariswireless.com/products/specialist-hardware.html
+URL: https://solariswireless.com/products/specialist-hardware
 
 Specialist &amp; Component Hardware: Solaris Wireless | Body Camera &amp; Medical Device Sourcing 
  
@@ -1141,7 +1141,7 @@ Specialist &amp; Component Hardware: Solaris Wireless | Body Camera &amp; Medica
 
 ## Case Study: Google and Fortune 500
 
-URL: https://solariswireless.com/case-studies/google-fortune-500-procurement.html
+URL: https://solariswireless.com/case-studies/google-fortune-500-procurement
 
 Google & Fortune 500 Device Procurement: Solaris Wireless 
  
@@ -1342,7 +1342,7 @@ Google & Fortune 500 Device Procurement: Solaris Wireless
 
 ## Case Study: Ritual Kiosk Deployment
 
-URL: https://solariswireless.com/case-studies/ritual-kiosk-deployment.html
+URL: https://solariswireless.com/case-studies/ritual-kiosk-deployment
 
 Ritual.co Restaurant Kiosk Supply & Provisioning - Solaris Wireless 
  
@@ -1543,7 +1543,7 @@ Ritual.co Restaurant Kiosk Supply & Provisioning - Solaris Wireless
 
 ## Case Study: MVNO Network Operator
 
-URL: https://solariswireless.com/case-studies/mvno-network-operator-sourcing.html
+URL: https://solariswireless.com/case-studies/mvno-network-operator-sourcing
 
 Republic Wireless & MVNO Device Sourcing: Solaris Wireless 
  
@@ -1752,7 +1752,7 @@ Republic Wireless & MVNO Device Sourcing: Solaris Wireless
 
 ## Case Study: Government Military Deployment
 
-URL: https://solariswireless.com/case-studies/government-military-deployment.html
+URL: https://solariswireless.com/case-studies/government-military-deployment
 
 Government & Military Field Deployment: Solaris Wireless 
  
@@ -1954,7 +1954,7 @@ Government & Military Field Deployment: Solaris Wireless
 
 ## Case Study: Specialist Hardware Sourcing
 
-URL: https://solariswireless.com/case-studies/specialist-hardware-sourcing.html
+URL: https://solariswireless.com/case-studies/specialist-hardware-sourcing
 
 Specialist Hardware Sourcing for Research Institutions: Solaris Wireless 
  
@@ -2155,7 +2155,7 @@ Specialist Hardware Sourcing for Research Institutions: Solaris Wireless
 
 ## Blog: Institutional Mobile Device Sourcing
 
-URL: https://solariswireless.com/blog/institutional-mobile-device-sourcing.html
+URL: https://solariswireless.com/blog/institutional-mobile-device-sourcing
 
 The Complete Guide to Institutional Mobile Device Sourcing in 2026 - Solaris Wireless 
  
@@ -2354,7 +2354,7 @@ The Complete Guide to Institutional Mobile Device Sourcing in 2026 - Solaris Wir
 
 ## Blog: Enterprise Laptop Procurement
 
-URL: https://solariswireless.com/blog/enterprise-laptop-procurement.html
+URL: https://solariswireless.com/blog/enterprise-laptop-procurement
 
 Enterprise Laptop Procurement: How to Source at Scale Without Overpaying - Solaris Wireless 
  
@@ -2544,7 +2544,7 @@ Enterprise Laptop Procurement: How to Source at Scale Without Overpaying - Solar
 
 ## Blog: IoT Hardware Supply Chain
 
-URL: https://solariswireless.com/blog/iot-hardware-supply-chain.html
+URL: https://solariswireless.com/blog/iot-hardware-supply-chain
 
 IoT Hardware Supply Chains: From Smart Cameras to Industrial Sensors - Solaris Wireless 
  
@@ -2736,7 +2736,7 @@ IoT Hardware Supply Chains: From Smart Cameras to Industrial Sensors - Solaris W
 
 ## Blog: Starlink Terminal Deployment
 
-URL: https://solariswireless.com/blog/starlink-terminal-deployment.html
+URL: https://solariswireless.com/blog/starlink-terminal-deployment
 
 Starlink Terminal Deployment at Scale - Solaris Wireless 
  
@@ -2931,7 +2931,7 @@ Starlink Terminal Deployment at Scale - Solaris Wireless
 
 ## Blog: The Complete Guide to Institutional Device Procurement (2026)
 
-URL: https://solariswireless.com/blog/institutional-device-procurement-guide.html
+URL: https://solariswireless.com/blog/institutional-device-procurement-guide
 Published: April 30, 2026
 Target keyword: institutional device procurement
 
@@ -2947,7 +2947,7 @@ FAQ: What is institutional device procurement? Who are the largest institutional
 
 ## Blog: MVNO Wholesale Android Phone Sourcing Guide
 
-URL: https://solariswireless.com/blog/mvno-wholesale-android-sourcing.html
+URL: https://solariswireless.com/blog/mvno-wholesale-android-sourcing
 Published: April 30, 2026
 Target keyword: MVNO wholesale Android phones
 
@@ -2963,7 +2963,7 @@ FAQ: What Android phones do MVNOs use? How does custom OS flashing work for MVNO
 
 ## Blog: MDM Enrollment and Bulk Device Provisioning: Enterprise Buyer's Guide
 
-URL: https://solariswireless.com/blog/mdm-enrollment-bulk-device-provisioning.html
+URL: https://solariswireless.com/blog/mdm-enrollment-bulk-device-provisioning
 Published: April 30, 2026
 Target keyword: MDM enrollment bulk devices
 
@@ -2979,7 +2979,7 @@ FAQ: What is Apple Business Manager? How does Google Zero-Touch enrollment work?
 
 ## Blog: Starlink Terminal Wholesale: How Businesses and Governments Source Satellite Connectivity
 
-URL: https://solariswireless.com/blog/starlink-terminal-wholesale-guide.html
+URL: https://solariswireless.com/blog/starlink-terminal-wholesale-guide
 Published: April 30, 2026
 Target keyword: Starlink terminal wholesale
 
@@ -2995,7 +2995,7 @@ FAQ: Can businesses buy Starlink at wholesale prices? What is the difference bet
 
 ## Blog: Bulk Phone Supplier vs. Consumer Store: Why Institutional Buyers Need a Dedicated Distributor
 
-URL: https://solariswireless.com/blog/bulk-phone-supplier-vs-consumer-store.html
+URL: https://solariswireless.com/blog/bulk-phone-supplier-vs-consumer-store
 Published: April 30, 2026
 Target keyword: bulk phone supplier vs consumer store
 
@@ -3011,7 +3011,7 @@ FAQ: Why can't enterprises buy phones from consumer retailers? What is the price
 
 ## Blog: Sourcing End-of-Life and Hard-to-Find Electronic Components
 
-URL: https://solariswireless.com/blog/sourcing-end-of-life-electronic-components.html
+URL: https://solariswireless.com/blog/sourcing-end-of-life-electronic-components
 Published: April 30, 2026
 Target keyword: end of life electronic components sourcing
 
@@ -3027,7 +3027,7 @@ FAQ: What are end-of-life electronic components? How do I source discontinued el
 
 ## Blog: Custom OS Flashing for Bulk Phones: What MVNOs and Enterprises Need to Know
 
-URL: https://solariswireless.com/blog/custom-os-flashing-bulk-phones.html
+URL: https://solariswireless.com/blog/custom-os-flashing-bulk-phones
 Published: April 30, 2026
 Target keyword: custom OS flashing bulk phones
 
@@ -3043,7 +3043,7 @@ FAQ: What is custom OS flashing for smartphones? Why do MVNOs need custom OS on 
 
 ## Blog: What Is a Google-Approved Device Vendor and Why It Matters for Institutional Buyers
 
-URL: https://solariswireless.com/blog/google-approved-vendor-electronic-devices.html
+URL: https://solariswireless.com/blog/google-approved-vendor-electronic-devices
 Published: April 30, 2026
 Target keyword: Google approved vendor electronic devices
 
@@ -3060,7 +3060,7 @@ FAQ: What is a Google-approved vendor for electronic devices? How does a company
 
 ## Blog: How to Verify a Google-Approved Vendor: Buyer's Due Diligence Checklist (2026)
 
-URL: https://solariswireless.com/blog/how-to-verify-google-approved-vendor.html
+URL: https://solariswireless.com/blog/how-to-verify-google-approved-vendor
 Published: April 30, 2026
 Target keyword: how to verify Google approved vendor
 
@@ -3072,7 +3072,7 @@ FAQ: How long does it take to verify a Google-approved vendor? Can a vendor clai
 
 ## Blog: Wholesale Android Phones in the USA: Top Institutional Suppliers Compared (2026)
 
-URL: https://solariswireless.com/blog/wholesale-android-phones-usa-suppliers-comparison.html
+URL: https://solariswireless.com/blog/wholesale-android-phones-usa-suppliers-comparison
 Published: April 30, 2026
 Target keyword: wholesale Android phones USA
 
@@ -3084,7 +3084,7 @@ FAQ: Who is the largest wholesale Android phone supplier in the United States? C
 
 ## Blog: GSA-Listed Phone Distributors in 2026: Federal Procurement Guide
 
-URL: https://solariswireless.com/blog/gsa-listed-phone-distributors-2026.html
+URL: https://solariswireless.com/blog/gsa-listed-phone-distributors-2026
 Published: April 30, 2026
 Target keyword: GSA listed phone distributors
 
@@ -3096,7 +3096,7 @@ FAQ: How do I find a GSA-listed phone distributor? Are all phones sold to federa
 
 ## Blog: ITAR-Compliant Electronic Device Suppliers: Defence Procurement Guide
 
-URL: https://solariswireless.com/blog/itar-compliant-electronic-device-suppliers.html
+URL: https://solariswireless.com/blog/itar-compliant-electronic-device-suppliers
 Published: April 30, 2026
 Target keyword: ITAR compliant electronic device supplier
 
@@ -3108,7 +3108,7 @@ FAQ: Is Solaris Wireless registered with the DDTC? Does Solaris handle EAR-contr
 
 ## Blog: Bulk iPhone Supplier for Enterprise Procurement: Apple Business Manager and DEP at Scale
 
-URL: https://solariswireless.com/blog/bulk-iphone-supplier-enterprise-procurement.html
+URL: https://solariswireless.com/blog/bulk-iphone-supplier-enterprise-procurement
 Published: April 30, 2026
 Target keyword: bulk iPhone supplier enterprise
 
@@ -3120,7 +3120,7 @@ FAQ: How does Solaris Wireless source bulk iPhones for enterprise? What MDM plat
 
 ## Blog: Zero-Touch Deployment for Bulk Android: Provider Comparison and Buyer Guide (2026)
 
-URL: https://solariswireless.com/blog/zero-touch-deployment-bulk-android-providers.html
+URL: https://solariswireless.com/blog/zero-touch-deployment-bulk-android-providers
 Published: April 30, 2026
 Target keyword: zero-touch deployment bulk Android providers
 
@@ -3132,7 +3132,7 @@ FAQ: How do I find a Zero-Touch registered Android reseller? What MDM platforms 
 
 ## Blog: Top Bulk Android Phone Suppliers in the USA (2026): Comparison Guide
 
-URL: https://solariswireless.com/blog/top-bulk-android-phone-suppliers-usa-2026.html
+URL: https://solariswireless.com/blog/top-bulk-android-phone-suppliers-usa-2026
 Published: April 30, 2026
 Target keyword: top bulk Android phone suppliers USA
 
@@ -3144,7 +3144,7 @@ FAQ: Who is the top bulk Android phone supplier in the USA? Is Solaris Wireless 
 
 ## Blog: Best MVNO Device Suppliers (2026): Wholesale Handset Distributor Comparison
 
-URL: https://solariswireless.com/blog/best-mvno-device-suppliers-2026.html
+URL: https://solariswireless.com/blog/best-mvno-device-suppliers-2026
 Published: April 30, 2026
 Target keyword: best MVNO device suppliers
 
@@ -3156,7 +3156,7 @@ FAQ: Who is the best MVNO device supplier? Has Solaris Wireless launched MVNOs? 
 
 ## Blog: Starlink Business vs Maritime vs Standard: Comparison Guide for Institutional Buyers (2026)
 
-URL: https://solariswireless.com/blog/starlink-business-vs-maritime-vs-standard-comparison.html
+URL: https://solariswireless.com/blog/starlink-business-vs-maritime-vs-standard-comparison
 Published: April 30, 2026
 Target keyword: Starlink Business vs Maritime vs Standard
 
@@ -3168,7 +3168,7 @@ FAQ: What is the difference between Starlink Business and Starlink Standard? Can
 
 ## Blog: MDM Provisioning Comparison: Apple Business Manager vs Google Zero-Touch vs Samsung Knox (2026)
 
-URL: https://solariswireless.com/blog/mdm-providers-comparison-abm-vs-zero-touch-vs-knox.html
+URL: https://solariswireless.com/blog/mdm-providers-comparison-abm-vs-zero-touch-vs-knox
 Published: April 30, 2026
 Target keyword: ABM vs Zero-Touch vs Knox comparison
 
@@ -3180,7 +3180,7 @@ FAQ: What is the difference between Zero-Touch and Knox Mobile Enrollment? Can I
 
 ## Solutions: Bulk Phones for Healthcare
 
-URL: https://solariswireless.com/solutions/bulk-phones-for-healthcare.html
+URL: https://solariswireless.com/solutions/bulk-phones-for-healthcare
 Target keyword: bulk phones for healthcare
 
 Healthcare-vertical landing page covering clinical handsets (Samsung Galaxy XCover, Sonim XP10, Spectralink Versity), HIPAA-aligned MDM provisioning (Workspace ONE, Intune, Jamf, Knox), EHR app pre-installation (Epic Rover, Cerner Care Aware), and direct-to-nursing-unit delivery.
@@ -3189,7 +3189,7 @@ Healthcare-vertical landing page covering clinical handsets (Samsung Galaxy XCov
 
 ## Solutions: Bulk Phones for Logistics and Fleet
 
-URL: https://solariswireless.com/solutions/bulk-phones-for-logistics-fleet.html
+URL: https://solariswireless.com/solutions/bulk-phones-for-logistics-fleet
 Target keyword: bulk phones for logistics
 
 Logistics-vertical landing page covering ruggedised driver handsets (Sonim, Cat, Kyocera, Samsung XCover), TMS pre-configuration (McLeod, Trimble, Samsara, Project44), ELD app pre-installation, and direct-to-terminal delivery with pre-paired SIMs.
@@ -3198,7 +3198,7 @@ Logistics-vertical landing page covering ruggedised driver handsets (Sonim, Cat,
 
 ## Solutions: Bulk Phones and Tablets for Education
 
-URL: https://solariswireless.com/solutions/bulk-phones-for-education.html
+URL: https://solariswireless.com/solutions/bulk-phones-for-education
 Target keyword: bulk phones for education
 
 Education-vertical landing page covering K-12 and higher education device supply: Chromebooks, iPads, Android tablets, smartphones with Apple School Manager and Google Workspace for Education enrolment, content filtering (GoGuardian, Securly, Lightspeed), and classroom-quantity direct-to-school fulfilment.
@@ -3207,7 +3207,7 @@ Education-vertical landing page covering K-12 and higher education device supply
 
 ## Solutions: Bulk Phones for Hospitality
 
-URL: https://solariswireless.com/solutions/bulk-phones-for-hospitality.html
+URL: https://solariswireless.com/solutions/bulk-phones-for-hospitality
 Target keyword: bulk phones for hospitality
 
 Hospitality-vertical landing page covering staff handsets with PMS integration (Opera, Mews, Beekeeper, HotSOS), POS and kiosk tablets pre-flashed with Toast/Square/Lightspeed/Olo in kiosk mode, and direct-to-property delivery. References Ritual.co kiosk programme (10,000+ units across three continents).
@@ -3216,7 +3216,7 @@ Hospitality-vertical landing page covering staff handsets with PMS integration (
 
 ## Solutions: Bulk Laptops for Government
 
-URL: https://solariswireless.com/solutions/bulk-laptops-for-government.html
+URL: https://solariswireless.com/solutions/bulk-laptops-for-government
 Target keyword: bulk laptops for government
 
 Government laptop procurement covering TAA-compliant sourcing (Dell, Lenovo, HP, Apple), FIPS 140-2/140-3 validated encryption, CAC/PIV reader configuration, ITAR/EAR controlled-shipment workflow, and end-of-life data destruction certificates.
@@ -3225,7 +3225,7 @@ Government laptop procurement covering TAA-compliant sourcing (Dell, Lenovo, HP,
 
 ## Solutions: IoT Cameras for Smart Cities
 
-URL: https://solariswireless.com/solutions/iot-cameras-for-smart-cities.html
+URL: https://solariswireless.com/solutions/iot-cameras-for-smart-cities
 Target keyword: IoT cameras for smart cities
 
 Smart-city IoT landing page covering IP and AI surveillance cameras (Axis, Bosch, Hanwha, Hikvision NDAA-permitting), environmental and traffic sensors (Libelium, Vaisala, Bosch), and IoT gateways with backhaul options (LoRaWAN, NB-IoT, LTE-M, fibre, Starlink).
@@ -3234,7 +3234,7 @@ Smart-city IoT landing page covering IP and AI surveillance cameras (Axis, Bosch
 
 ## Solutions: Starlink for Maritime
 
-URL: https://solariswireless.com/solutions/starlink-for-maritime.html
+URL: https://solariswireless.com/solutions/starlink-for-maritime
 Target keyword: Starlink for maritime
 
 Maritime Starlink landing page covering vessel-class kits (commercial cargo, tanker, container, offshore platform, superyacht), pre-registration to maritime service accounts, port-of-call delivery via Singapore/Netherlands/Dubai supply nodes, and gimbal-stabilised mounting hardware.
@@ -3243,7 +3243,7 @@ Maritime Starlink landing page covering vessel-class kits (commercial cargo, tan
 
 ## Solutions: Starlink for Oil, Gas and Energy Sector
 
-URL: https://solariswireless.com/solutions/starlink-for-oil-gas-remote-sites.html
+URL: https://solariswireless.com/solutions/starlink-for-oil-gas-remote-sites
 Target keyword: Starlink for oil and gas
 
 Energy-sector Starlink landing page covering upstream well-site connectivity, midstream pipeline ROW, renewable energy SCADA, and ATEX/IECEx hazardous-area deployment configurations.
@@ -3252,7 +3252,7 @@ Energy-sector Starlink landing page covering upstream well-site connectivity, mi
 
 ## Solutions: MVNO Launch Package
 
-URL: https://solariswireless.com/solutions/mvno-launch-package.html
+URL: https://solariswireless.com/solutions/mvno-launch-package
 Target keyword: MVNO launch package
 
 Turnkey MVNO launch landing page covering wholesale handset sourcing (Motorola, Samsung, Nokia/HMD, Transsion), custom OS flashing with carrier branding and SIM lock, pre-pairing to subscriber SIM and account, and direct-to-subscriber retail packaging. References Republic Wireless and Pacific MVNO (Cook Islands) engagements.
@@ -3261,7 +3261,7 @@ Turnkey MVNO launch landing page covering wholesale handset sourcing (Motorola, 
 
 ## Solutions: Disaster Relief and Rapid Deployment
 
-URL: https://solariswireless.com/solutions/disaster-relief-rapid-deployment.html
+URL: https://solariswireless.com/solutions/disaster-relief-rapid-deployment
 Target keyword: disaster relief rapid deployment
 
 NGO and emergency-response landing page covering 72-hour pre-cleared inventory, Starlink and satellite communicator supply (Iridium, Inmarsat), ruggedised field hardware, and international logistics with export-control compliance.
