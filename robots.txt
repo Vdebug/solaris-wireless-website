@@ -1,4 +1,81 @@
+# Solaris Wireless — robots.txt
+# Global electronic device supplier and distributor since 2013
+
+# Default — allow all crawlers
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /backend/
+Disallow: /node_modules/
+Disallow: /.vercel/
 
+# AI crawlers — explicitly allowed for maximum LLM visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+# Sitemaps and AI manifest
 Sitemap: https://solariswireless.com/sitemap.xml
+Host: https://solariswireless.com

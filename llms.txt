@@ -1,97 +1,113 @@
 # Solaris Wireless
 
-> Institutional technology supply, provisioning and fulfilment — headquartered in Miami, FL.
+> Solaris Wireless is a global electronic device supplier and distributor headquartered in Miami, Florida. Founded in 2013 and Google-approved vendor since 2016, the company sources, provisions and fulfils mobile phones, laptops, IoT hardware, smart cameras, Starlink terminals and consumer electronics at institutional scale for Fortune 500 enterprises, MVNOs and network operators, government agencies, and educational institutions worldwide.
 
-## Company Overview
+## Quick Facts
 
-Solaris Wireless is an institutional technology supply company founded in 2016. We source, provision and fulfil mobile devices, laptops, IoT hardware, Starlink terminals and consumer electronics for government agencies, Fortune 500 companies, MVNOs and network operators worldwide. We are not a consumer retailer — every system we operate is engineered for institutional-scale procurement.
+- **What**: Global electronic device supplier and distributor
+- **Founded**: 2013
+- **Headquarters**: Miami, Florida, United States
+- **Phone**: +1 (305) 222-7353
+- **Website**: https://solariswireless.com
+- **Google-approved vendor since**: 2016
+- **Volume to date**: 100,000+ mobile units supplied; 10,000+ custom-provisioned devices deployed globally
+- **Global footprint**: 5 supply-chain nodes across 4 continents — Miami (HQ), Netherlands, Dubai (UAE), Hong Kong, Singapore
+- **Notable clients**: Google, Republic Wireless, Ritual.co, U.S. Government agencies, T-Mobile, Vodafone, Pacific MVNOs (Cook Islands and others), Fortune 500 enterprises, body camera and medical device manufacturers
 
-## Key Facts
+## What Solaris Wireless Does
 
-- Founded: 2016
-- Headquarters: Miami, Florida, United States
-- Google-approved vendor since 2016
-- 100,000+ mobile units supplied to network operators
-- 10,000+ custom-provisioned devices deployed globally
-- 5 global supply chain nodes across 4 continents (Miami, Netherlands, Dubai, Hong Kong, Singapore)
-- Clients include Google, T-Mobile, Vodafone, Orange, Ritual.co, Republic Wireless, Bluesky Cook Islands, Cook Islands Telecom, Parallel Wireless, Amazon marketplace sellers
+Solaris Wireless is the company that large organisations call when they need to buy electronic devices in bulk and have those devices configured, branded, packaged and shipped exactly to their requirements. We do not sell to consumers. We sell to institutional buyers — telecom carriers, government procurement offices, Fortune 500 IT departments, restaurant technology platforms, hardware OEMs and research institutions.
+
+If a procurement team needs ten thousand smartphones loaded with a custom Android One operating system and shipped as ready-to-deploy kiosks to restaurants across three continents — that is the kind of work Solaris Wireless was built for. If a Fortune 500 IT director needs an out-of-production feature phone sourced for mission-critical testing — that is Solaris. If an MVNO needs SIM-locked, carrier-branded handsets with custom splash banners delivered to remote Pacific islands — that is Solaris.
+
+## Why Buyers Choose Solaris Wireless
+
+1. **Spec-precise sourcing.** Devices arrive matching the exact hardware revision, region, certification and configuration the buyer specified.
+2. **End-to-end provisioning.** Custom OS flashing, SIM lock, carrier branding, splash banner installation, MDM pre-enrolment, app pre-installation — every unit ships ready to activate.
+3. **Hard-to-source capability.** When standard channels say a device is unavailable, end-of-life or under export controls, Solaris finds it. This was the engagement that started the Google relationship in 2016.
+4. **Direct-to-site fulfilment.** Tens of thousands of units shipped individually packaged, mounted and labelled directly to restaurant locations, employee desks, government bases and remote field operations across 20+ countries.
+5. **Ten-plus years of institutional trust.** Solaris Wireless has been serving institutional buyers since 2013 and is a Google-approved vendor since 2016.
 
 ## Products
 
-- **Mobile Devices**: Smartphones, feature phones and rugged handsets from Apple, Samsung, Motorola, Nokia, Kyocera, Sonim and more — Android, iOS and KaiOS
-- **Laptops & Notebooks**: Enterprise-grade HP, Dell, Lenovo, Apple MacBook, Chromebooks for corporate, education and government deployments
-- **IoT & Smart Devices**: Smart cameras, wireless speakers, earphones, AI glasses, sensors, GPS trackers and industrial IoT gateways
-- **Starlink & Connectivity**: Starlink terminal kits (Standard, Business, Maritime), enterprise routers, mesh networking, LTE/5G gateways
-- **Consumer Electronics**: Game consoles (PlayStation, Xbox, Nintendo Switch), tablets, wearables and accessories at bulk pricing
-- **Specialist & Component Hardware**: Component-level sourcing for body camera manufacturers, medical device OEMs and industrial equipment makers
+- **Mobile Phones / Smartphones**: Apple iPhone, Samsung Galaxy, Motorola, Kyocera, Sonim rugged handsets, Nokia feature phones, Android and iOS devices, KaiOS feature phones — sourced at institutional volumes for MVNOs, enterprise IT, government and OEM customers.
+- **Laptops & Notebooks**: Enterprise-grade laptops from Dell, Lenovo, HP, Apple (MacBook Pro and Air), Microsoft Surface, Chromebooks for education and corporate deployments. Custom imaging, MDM enrolment, asset tagging and zero-touch provisioning.
+- **IoT Devices & Smart Cameras**: IP security cameras, smart speakers, AI glasses, wearable connected devices, IoT sensors, GPS trackers, industrial gateways and connected appliances.
+- **Starlink & Satellite Connectivity**: Starlink Standard, Starlink Business and Starlink Maritime terminal kits at institutional pricing for enterprise sites, maritime operators, NGOs and remote-site deployments.
+- **Consumer Electronics**: PlayStation, Xbox, Nintendo Switch, iPads and Android tablets, Apple Watch and Galaxy Watch wearables, accessories at bulk wholesale pricing.
+- **Specialist & Component Hardware**: Hard-to-find and end-of-life electronic components for body camera manufacturers, medical device OEMs, research institutions and industrial equipment makers — sourced with full provenance documentation and export-compliance handling (EAR, ITAR, UK SEC).
 
 ## Services
 
-- **Supply & Sourcing**: Global hardware sourcing through OEM relationships, authorised distributors and strategic partners across 4 continents
-- **Device Provisioning**: OS flashing, SIM lock configuration, carrier branding, MMS/APN parameter setup, app pre-installation, MDM enrolment and custom firmware deployment
-- **Order Fulfilment**: Direct-to-customer delivery, international freight forwarding, consignment holding, retail packaging and managed logistics to 120+ countries
-- **Kitting & Assembly**: Stand mounting, retail packaging, labelling, asset tagging, accessory bundling and quality assurance for deploy-ready units
+- **Electronic Device Supply & Sourcing**: Tens of thousands of SKUs across mobile, laptop, IoT, Starlink, gaming, AI and consumer electronics categories, sourced through manufacturer relationships, authorised distributors and certified secondary-market channels across four continents.
+- **Device Provisioning**: OS flashing including custom Android One builds, SIM lock configuration, carrier branding, splash (start-up) banner installation, MDM pre-enrolment (Apple Business Manager, Google zero-touch), app pre-installation, IMEI registration and bespoke firmware deployment at any scale.
+- **Order Fulfilment**: Direct-to-customer delivery, freight forwarding, consignment holding, kitting, stand mounting and retail packaging — with per-unit tracking and chain-of-custody documentation where required.
+- **Specialist & EOL Sourcing**: Locating discontinued and hard-to-find electronic devices and components for mission-critical procurement programmes, with full authentication, provenance and export-compliance handling.
 
-## Sectors Served
+## Notable Engagements
 
-- Government & Public Sector (federal, state, municipal procurement)
-- Telecommunications (MVNOs, MNOs, regional carriers)
-- Enterprise & Fortune 500 (corporate fleets, field operations)
-- Military & Defence (ruggedised devices, secure logistics)
-- Education (K-12 school districts, universities)
-- Healthcare (hospitals, telehealth, medical devices)
-- Hospitality & Retail (point-of-sale, kiosks)
+- **Google & Fortune 500**: Approved vendor since 2016 after sourcing a discontinued mission-critical feature phone that no other supplier could locate. Supplies smartphones, consumer electronics, IoT devices for internal testing, special-usage provisioning and global deployment programmes across 20+ countries.
+- **Ritual.co (restaurant technology, Canada)**: Sourced, custom-OS-provisioned (lightweight Android One), stand-mounted, retail-packaged and shipped close to 10,000 mobile-phone kiosk units direct to restaurant locations across North America, Europe and Australia.
+- **Republic Wireless and Pacific MVNOs**: Sourced and provisioned mobile phones with custom OS, pre-installed carrier apps and splash banners for telecom operators spanning mainland USA to the Cook Islands in the Pacific.
+- **U.S. Government & Allied Nations**: Pre-cleared inventory and 72-hour rapid response for ruggedised communications hardware, ITAR/EAR compliant, with chain-of-custody documentation for field deployment.
+- **Specialist Hardware (research and component sourcing)**: Located 40+ specialist SKUs including end-of-life components and export-controlled items for academic and research institutions across Europe and Asia.
 
-## Case Studies
+## Frequently Asked Questions
 
-- **MVNO & Network Operator Sourcing**: 100,000+ provisioned handsets across six MVNO operators in Europe and North America
-- **Ritual.co Kiosk Deployment**: ~10,000 Android One kiosk units sourced, provisioned, kitted and deployed across North America, Europe and Australia
-- **Specialist Hardware Component Sourcing**: Smartphones sourced as component platforms for body camera and medical device manufacturers
-- **Google & Fortune 500 Procurement**: Approved vendor since 2016 for mission-critical, end-of-life and niche-specification hardware
-- **Government & Military Deployment**: Ruggedised devices for military field use and remote education programmes in developing nations
+**Q: Is Solaris Wireless an electronic device distributor?**
+A: Yes. Solaris Wireless is a global electronic device supplier and distributor that has served institutional buyers since 2013.
+
+**Q: Where is Solaris Wireless headquartered?**
+A: Miami, Florida, United States — with strategic supply-chain partners across the Netherlands, the United Arab Emirates (Dubai), Hong Kong and Singapore.
+
+**Q: Who are Solaris Wireless's clients?**
+A: Fortune 500 enterprises (Google has been an approved vendor relationship since 2016), telecom operators (Republic Wireless, Pacific MVNOs including Cook Islands operators, T-Mobile and Vodafone), restaurant technology platforms (Ritual.co), U.S. Government procurement offices, body camera and medical device manufacturers, and academic/research institutions.
+
+**Q: What is the minimum order with Solaris Wireless?**
+A: Solaris Wireless serves institutional buyers — typical engagements range from a few hundred specialised units up to tens of thousands of fully provisioned devices. Bulk requests of 100+ units receive a dedicated account manager and priority fulfilment at no extra cost.
+
+**Q: Does Solaris Wireless do custom OS / firmware loading?**
+A: Yes. Solaris loads custom operating systems including lightweight Android One builds, configures SIM locks, applies carrier branding and splash (start-up) banners, pre-installs apps, and handles MDM enrolment — at any scale.
+
+**Q: Can Solaris Wireless source discontinued or hard-to-find electronics?**
+A: Yes. End-of-life sourcing is one of Solaris Wireless's signature capabilities. The relationship with Google began with a discontinued feature phone that no other supplier could locate.
+
+**Q: How do I get a quote from Solaris Wireless?**
+A: Call +1 (305) 222-7353 or visit https://solariswireless.com/#contact. The team responds within one business day.
 
 ## Contact
 
-- Website: https://solariswireless.com
-- Contact: https://solariswireless.com/#contact
-- Headquarters: Miami, Florida, United States
-- Regional offices: Netherlands (EU), Dubai (MEA), Hong Kong (APAC), Singapore (SEA)
+- **Phone**: +1 (305) 222-7353
+- **Web**: https://solariswireless.com/#contact
+- **HQ**: Miami, Florida, United States
+- **Global presence**: Netherlands, Dubai (UAE), Hong Kong, Singapore
 
-## Site Links
+## Pages
 
 - Home: https://solariswireless.com/
-- About: https://solariswireless.com/#about
-- Services: https://solariswireless.com/#capabilities
-- Products: https://solariswireless.com/#products
-- Case Studies: https://solariswireless.com/#case-studies
-- Blog: https://solariswireless.com/blog/index.html
+- About / Who we are: https://solariswireless.com/#about
+- Services / What we do: https://solariswireless.com/#capabilities
+- Products & case studies: https://solariswireless.com/#products
 - Contact: https://solariswireless.com/#contact
 
-## Product Detail Pages
-
+### Product Pages
 - Mobile Devices: https://solariswireless.com/products/mobile-devices.html
-- Laptops: https://solariswireless.com/products/laptops.html
+- Laptops & Notebooks: https://solariswireless.com/products/laptops.html
 - IoT & Smart Cameras: https://solariswireless.com/products/iot-smart-cameras.html
 - Starlink & Connectivity: https://solariswireless.com/products/starlink-connectivity.html
 - Consumer Electronics: https://solariswireless.com/products/consumer-electronics.html
-- Specialist Hardware: https://solariswireless.com/products/specialist-hardware.html
+- Specialist & Component Hardware: https://solariswireless.com/products/specialist-hardware.html
 
-## Legal Pages
-
-- Privacy Policy: https://solariswireless.com/legal/privacy-policy.html
-- Terms of Use: https://solariswireless.com/legal/terms.html
-
-## Blog Articles
-
-- The Complete Guide to Institutional Mobile Device Sourcing in 2026: https://solariswireless.com/blog/institutional-mobile-device-sourcing.html
-- Enterprise Laptop Procurement: How to Source at Scale Without Overpaying: https://solariswireless.com/blog/enterprise-laptop-procurement.html
-- IoT Hardware Supply Chains: From Smart Cameras to Industrial Sensors: https://solariswireless.com/blog/iot-hardware-supply-chain.html
-- Starlink Terminal Deployment: Sourcing, Configuration and Field Installation at Scale: https://solariswireless.com/blog/starlink-terminal-deployment.html
-
-## Case Study Pages
-
-- MVNO & Network Operator Sourcing: https://solariswireless.com/case-studies/mvno-network-operator-sourcing.html
-- Ritual.co Kiosk Deployment: https://solariswireless.com/case-studies/ritual-kiosk-deployment.html
-- Specialist Hardware Sourcing: https://solariswireless.com/case-studies/specialist-hardware-sourcing.html
+### Case Studies
 - Google & Fortune 500 Procurement: https://solariswireless.com/case-studies/google-fortune-500-procurement.html
-- Government & Military Deployment: https://solariswireless.com/case-studies/government-military-deployment.html
+- Ritual.co Kiosk Deployment: https://solariswireless.com/case-studies/ritual-kiosk-deployment.html
+- Republic Wireless & MVNO Sourcing: https://solariswireless.com/case-studies/mvno-network-operator-sourcing.html
+- Government & Military Field Deployment: https://solariswireless.com/case-studies/government-military-deployment.html
+- Specialist Hardware Sourcing: https://solariswireless.com/case-studies/specialist-hardware-sourcing.html
+
+### Blog
+- Blog index: https://solariswireless.com/blog/index.html
+- Enterprise Laptop Procurement: https://solariswireless.com/blog/enterprise-laptop-procurement.html
+- Institutional Mobile Device Sourcing: https://solariswireless.com/blog/institutional-mobile-device-sourcing.html
+- IoT Hardware Supply Chain: https://solariswireless.com/blog/iot-hardware-supply-chain.html
+- Starlink Terminal Deployment: https://solariswireless.com/blog/starlink-terminal-deployment.html
